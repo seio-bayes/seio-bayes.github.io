@@ -1,20 +1,38 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - book_of_abstracts_bayes_cunef.pdf
+    - folleto-2pag.pdf
+    - logos/bayes2.png
+    - logos/Logo-seio-header.png
+    - logos/CUNEF Universidad_Fondo transparente.png
+    - logos/Workshop 4-5 junio.jpg
+    - conference_documents/map.png
 
 website:
-  title: "seio-bayes"
+  title: "II International Workshop on Bayesian Statistics"
   navbar:
     left:
       - href: index.qmd
-        text: Home
-      - about.qmd
+        text: Overview
+      - href: program.qmd
+        text: Program
+      - href: about.qmd
+        text: Venue & Downloads
+    right:
+      - href: book_of_abstracts_bayes_cunef.pdf
+        text: Book of Abstracts
+      - href: folleto-2pag.pdf
+        text: Folleto
+  page-footer:
+    center: "Organised by the Bayesian Working Group of SEIO and CUNEF Universidad"
 
 format:
   html:
     theme: cosmo
     css: styles.css
-    toc: true
+    toc: false
+    smooth-scroll: true
 
 editor: visual
-
