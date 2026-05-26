@@ -24,7 +24,7 @@ website:
       - href: book_of_abstracts_bayes_cunef.pdf
         text: Book of Abstracts
       - href: folleto-2pag.pdf
-        text: Folleto
+        text: Brochure
   page-footer:
     center: "Organised by the Bayesian Working Group of SEIO and CUNEF Universidad"
 
