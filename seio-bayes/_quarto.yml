@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: docs
+  output-dir: ../docs
   resources:
     - book_of_abstracts_bayes_cunef.pdf
     - folleto-2pag.pdf
