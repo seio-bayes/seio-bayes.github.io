@@ -8,7 +8,6 @@ project:
     - logos/Logo-seio-header.png
     - logos/CUNEF Universidad_Fondo transparente.png
     - logos/Workshop 4-5 junio.jpg
-    - conference_documents/map.png
 
 website:
   title: "II International Workshop on Bayesian Statistics"
