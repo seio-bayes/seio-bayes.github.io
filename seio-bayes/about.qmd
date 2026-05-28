@@ -70,6 +70,34 @@ toc: false
   </div>
 </section>
 
+<section class="committee-section">
+  <div class="section-heading">
+    <p class="section-kicker">Committees</p>
+    <h2>Organising and scientific committees</h2>
+  </div>
+  <div class="committee-grid">
+    <article class="info-panel committee-panel">
+      <h3>Organising committee</h3>
+      <ul class="committee-list">
+        <li>Remedios Sillero (Universidad de Sevilla)</li>
+        <li>Roi Naveiro (CUNEF Universidad)</li>
+        <li>Audrone Virbickaite (CUNEF Universidad)</li>
+        <li>Martina Zaharieva (CUNEF Universidad)</li>
+        <li>Juan Maroñas (CUNEF Universidad)</li>
+        <li>María Fernanda Pintado (CUNEF Universidad)</li>
+      </ul>
+    </article>
+    <article class="info-panel committee-panel">
+      <h3>Scientific committee</h3>
+      <ul class="committee-list">
+        <li>Remedios Sillero (Universidad de Sevilla)</li>
+        <li>Martina Zaharieva (CUNEF Universidad)</li>
+        <li>Simón Rodríguez Santana (Universidad Pontificia de Comillas)</li>
+      </ul>
+    </article>
+  </div>
+</section>
+
 <section class="section downloads-band compact" id="downloads">
   <div class="downloads-layout">
     <div>
