@@ -6,86 +6,106 @@ toc: false
 ---
 
 ```{=html}
-<div class="wrap">
-
-<header class="pagehead">
+<section class="page-intro">
+  <p class="section-kicker">The group</p>
   <h1>People</h1>
-  <p class="lead">The group is run by two coordinators and a board of four members.</p>
-</header>
+  <p>The group is run by two coordinators and a board of four members.</p>
+</section>
 
 <section class="section">
-  <div class="layout">
-    <p class="label">Coordination</p>
-    <div class="people people--lead">
+  <div class="container">
+    <div class="section-heading">
+      <p class="section-kicker">Coordination</p>
+      <h2>Coordinators</h2>
+    </div>
+    <div class="people">
       <article class="person">
-        <img class="person__photo" src="people/roi-naveiro.jpg" width="420" height="525" alt="Roi Naveiro Flores">
+        <img class="person__photo" src="people/roi-naveiro.jpg" width="288" height="288" alt="Roi Naveiro Flores">
         <div>
           <h3>Roi Naveiro Flores</h3>
           <p class="person__affil">CUNEF Universidad</p>
-          <a class="person__mail" href="mailto:roi.naveiro@cunef.edu">roi.naveiro@cunef.edu</a>
+          <a class="inline-link" href="mailto:roi.naveiro@cunef.edu">roi.naveiro@cunef.edu</a>
         </div>
       </article>
       <article class="person">
-        <img class="person__photo" src="people/remedios-sillero.jpg" width="420" height="525" alt="M. Remedios Sillero-Denamiel">
+        <img class="person__photo" src="people/remedios-sillero.jpg" width="288" height="288" alt="M. Remedios Sillero-Denamiel">
         <div>
           <h3>M. Remedios Sillero-Denamiel</h3>
           <p class="person__affil">Universidad de Sevilla</p>
-          <a class="person__mail" href="mailto:rsillero@us.es">rsillero@us.es</a>
+          <a class="inline-link" href="mailto:rsillero@us.es">rsillero@us.es</a>
         </div>
       </article>
     </div>
   </div>
 </section>
 
-<section class="section">
-  <div class="layout">
-    <p class="label">Board</p>
-    <div class="people people--board">
+<section class="section section--muted">
+  <div class="container">
+    <div class="section-heading">
+      <p class="section-kicker">Board</p>
+      <h2>Board members</h2>
+    </div>
+    <div class="people">
       <article class="person">
-        <img class="person__photo" src="people/concepcion-ausin.jpg" width="320" height="400" loading="lazy" alt="Concepción Ausín Olivera">
+        <img class="person__photo" src="people/concepcion-ausin.jpg" width="288" height="288" loading="lazy" alt="Concepci&oacute;n Aus&iacute;n Olivera">
         <div>
-          <h3>Concepción Ausín Olivera</h3>
+          <h3>Concepci&oacute;n Aus&iacute;n Olivera</h3>
           <p class="person__affil">Universidad Carlos III de Madrid</p>
-          <a class="person__mail" href="mailto:concepcion.ausin@uc3m.es">concepcion.ausin@uc3m.es</a>
+          <a class="inline-link" href="mailto:concepcion.ausin@uc3m.es">concepcion.ausin@uc3m.es</a>
         </div>
       </article>
       <article class="person">
-        <img class="person__photo" src="people/stefano-cabras.jpg" width="320" height="400" loading="lazy" alt="Stefano Cabras">
+        <img class="person__photo" src="people/stefano-cabras.jpg" width="288" height="288" loading="lazy" alt="Stefano Cabras">
         <div>
           <h3>Stefano Cabras</h3>
           <p class="person__affil">Universidad Carlos III de Madrid</p>
-          <a class="person__mail" href="mailto:stefano.cabras@uc3m.es">stefano.cabras@uc3m.es</a>
+          <a class="inline-link" href="mailto:stefano.cabras@uc3m.es">stefano.cabras@uc3m.es</a>
         </div>
       </article>
       <article class="person">
-        <img class="person__photo" src="people/gonzalo-garcia-donato.jpg" width="278" height="348" loading="lazy" alt="Gonzalo García-Donato">
+        <img class="person__photo" src="people/gonzalo-garcia-donato.jpg" width="288" height="288" loading="lazy" alt="Gonzalo Garc&iacute;a-Donato">
         <div>
-          <h3>Gonzalo García-Donato</h3>
+          <h3>Gonzalo Garc&iacute;a-Donato</h3>
           <p class="person__affil">Universidad de Castilla-La Mancha</p>
-          <a class="person__mail" href="mailto:gonzalo.garciadonato@uclm.es">gonzalo.garciadonato@uclm.es</a>
+          <a class="inline-link" href="mailto:gonzalo.garciadonato@uclm.es">gonzalo.garciadonato@uclm.es</a>
         </div>
       </article>
       <article class="person">
-        <img class="person__photo" src="people/pepa-ramirez-cobo.jpg" width="137" height="171" loading="lazy" alt="Pepa Ramírez-Cobo">
+        <img class="person__photo" src="people/pepa-ramirez-cobo.jpg" width="288" height="288" loading="lazy" alt="Pepa Ram&iacute;rez-Cobo">
         <div>
-          <h3>Pepa Ramírez-Cobo</h3>
-          <p class="person__affil">Universidad de Cádiz</p>
-          <a class="person__mail" href="mailto:pepa.ramirez@uca.es">pepa.ramirez@uca.es</a>
+          <h3>Pepa Ram&iacute;rez-Cobo</h3>
+          <p class="person__affil">Universidad de C&aacute;diz</p>
+          <a class="inline-link" href="mailto:pepa.ramirez@uca.es">pepa.ramirez@uca.es</a>
         </div>
       </article>
     </div>
   </div>
 </section>
 
-<section class="section">
-  <div class="layout">
-    <p class="label">Members</p>
-    <div class="prose">
-      <p>The group brings together researchers and practitioners at Spanish universities and research centres, together with colleagues based abroad. The membership list is kept internally and is not published here.</p>
-      <p>To join the group or to correct an entry, write to <a href="mailto:roi.naveiro@cunef.edu">roi.naveiro@cunef.edu</a> or <a href="mailto:rsillero@us.es">rsillero@us.es</a>. Membership of the Society itself is handled by <a href="https://www.seio.es/membership/individual-member/">SEIO</a>.</p>
+<section class="section downloads-band compact">
+  <div class="downloads-layout">
+    <div>
+      <p class="section-kicker">Membership</p>
+      <h2>Members</h2>
+      <p>
+        The group brings together researchers and practitioners at Spanish universities and research centres, together with colleagues based abroad. The membership list is kept internally and is not published here.
+      </p>
+      <p>
+        To join the group or to correct an entry, write to the coordinators. Membership of the Society itself is handled by <a href="https://www.seio.es/membership/individual-member/">SEIO</a>.
+      </p>
+    </div>
+    <div class="download-cards">
+      <a class="download-card" href="mailto:roi.naveiro@cunef.edu">
+        <i class="bi bi-envelope" aria-hidden="true"></i>
+        <span>Roi Naveiro</span>
+        <small>roi.naveiro@cunef.edu</small>
+      </a>
+      <a class="download-card" href="mailto:rsillero@us.es">
+        <i class="bi bi-envelope" aria-hidden="true"></i>
+        <span>M. Remedios Sillero-Denamiel</span>
+        <small>rsillero@us.es</small>
+      </a>
     </div>
   </div>
 </section>
-
-</div>
 ```

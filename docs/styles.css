@@ -1,803 +1,1240 @@
-/* ==========================================================================
-   Bayesian Working Group of SEIO
-   A quiet, typographic stylesheet: hairline rules, a single label column,
-   restrained colour. No decorative gradients, shadows or icons.
-   ========================================================================== */
-
 :root {
-  --paper:      #fcfcfa;
-  --surface:    #ffffff;
-  --ink:        #1a1e24;
-  --muted:      #5b636e;
-  --faint:      #8a9199;
-  --navy:       #123152;
-  --navy-deep:  #0e2740;
-  --accent:     #9a3b1c;
-  --line:       #e3e1da;
-  --rule:       #c6c3b9;
-
-  --page:   1080px;
-  --gutter: 3rem;
-  --col:    8.5rem;   /* label / date column          */
-  --gap:    3.25rem;  /* space between the two columns */
-
-  --serif: "Source Serif 4", "Iowan Old Style", Palatino, Georgia, serif;
-  --sans:  "Inter", system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  --front: #151f6c;
+  --orange: #ff5700;
+  --ink: #1f2937;
+  --muted: #5f6673;
+  --line: #ded8cd;
+  --warm: #f5f2ed;
+  --paper: #ffffff;
+  --soft-blue: #e9edf8;
+  --shadow: 0 18px 45px rgba(21, 31, 108, 0.12);
 }
-
-*,
-*::before,
-*::after { box-sizing: border-box; }
-
-html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
 
 body {
-  margin: 0;
   color: var(--ink);
   background: var(--paper);
-  font-family: var(--serif);
-  font-size: 17px;
-  line-height: 1.62;
-  font-optical-sizing: auto;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-}
-
-/* ---- Quarto / Bootstrap reset ------------------------------------------ */
-
-#title-block-header,
-.quarto-title-block { display: none; }
-
-#quarto-content,
-main.content,
-.column-page,
-div.column-page {
-  width: 100%;
-  max-width: none;
-  margin: 0;
-  padding: 0;
-}
-
-#quarto-content { display: block; }
-
-/* ---- Typography -------------------------------------------------------- */
-
-h1, h2, h3, h4 {
-  margin: 0;
-  color: var(--navy-deep);
-  font-family: var(--serif);
-  font-weight: 400;
-  letter-spacing: -0.012em;
-  line-height: 1.2;
-}
-
-h1 { font-size: clamp(1.95rem, 3.2vw, 2.45rem); line-height: 1.12; }
-h2 { font-size: clamp(1.35rem, 2vw, 1.62rem); }
-h3 { font-size: 1.06rem; font-weight: 600; letter-spacing: 0; }
-h4 { font-size: 0.95rem; font-weight: 600; letter-spacing: 0; }
-
-p { margin: 0 0 1.05em; }
-p:last-child { margin-bottom: 0; }
-
-a {
-  color: var(--navy);
-  text-decoration: underline;
-  text-decoration-thickness: 0.5px;
-  text-underline-offset: 0.17em;
-  text-decoration-color: rgba(18, 49, 82, 0.35);
-}
-
-a:hover,
-a:focus-visible {
-  color: var(--accent);
-  text-decoration-color: currentColor;
-}
-
-:focus-visible {
-  outline: 2px solid var(--accent);
-  outline-offset: 3px;
-}
-
-strong { font-weight: 600; }
-
-.sans   { font-family: var(--sans); }
-.muted  { color: var(--muted); }
-
-/* ---- Navigation -------------------------------------------------------- */
-
-.navbar {
-  min-height: 64px;
-  padding: 0;
-  background: var(--paper);
-  border-bottom: 1px solid var(--rule);
-}
-
-.navbar .container-fluid,
-.navbar .navbar-container {
-  width: min(var(--page), calc(100% - var(--gutter)));
-  margin-inline: auto;
-  padding: 0;
-}
-
-/* keep the brand next to the toggler: the theme's space-between plus an empty
-   tools slot otherwise strands it in the middle of the collapsed bar */
-.navbar .container-fluid,
-.navbar .navbar-container { justify-content: flex-start; }
-
-.navbar .navbar-brand-container { margin-left: 0 !important; margin-right: 1.5rem !important; }
-
-.navbar-brand {
-  display: flex;
-  gap: 0.55rem;
-  align-items: baseline;
-  padding: 1.15rem 0;
-  color: var(--ink) !important;
-  text-decoration: none;
-}
-
-.navbar-brand::before {
-  content: "p(\03B8|x)";
-  color: var(--accent);
-  font-family: var(--serif);
-  font-size: 1rem;
-  font-style: italic;
-}
-
-.navbar-title {
-  color: var(--ink) !important;
-  font-family: var(--sans);
-  font-size: 0.84rem;
-  font-weight: 600;
-  letter-spacing: 0.005em;
-}
-
-.navbar-nav .nav-link {
-  padding: 1.15rem 0.8rem !important;
-  color: var(--muted) !important;
-  font-family: var(--sans);
-  font-size: 0.83rem;
-  font-weight: 500;
   letter-spacing: 0;
 }
 
-.navbar-nav .nav-link:hover,
-.navbar-nav .nav-link:focus,
-.navbar-nav .nav-link.active {
-  color: var(--ink) !important;
-  box-shadow: inset 0 -2px 0 var(--accent);
+a {
+  color: var(--front);
 }
 
-.navbar-toggler {
-  padding: 0.35rem 0.5rem;
-  border: 1px solid var(--rule);
-  border-radius: 0;
+.navbar {
+  border-bottom: 1px solid rgba(21, 31, 108, 0.1);
 }
 
-.dropdown-menu {
-  padding: 0.25rem;
-  background: var(--surface);
-  border: 1px solid var(--rule);
-  border-radius: 0;
-  box-shadow: none;
+.navbar-title {
+  color: var(--front);
+  font-weight: 700;
+}
+
+.nav-link {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--orange);
+}
+
+.quarto-title {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+#title-block-header {
+  display: none;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--front);
+  letter-spacing: 0;
+}
+
+p {
+  line-height: 1.65;
+}
+
+.container {
+  width: min(1120px, calc(100% - 40px));
+  margin: 0 auto;
+}
+
+.hero {
+  position: relative;
+  min-height: clamp(500px, 70vh, 680px);
+  display: flex;
+  align-items: center;
+  background-image: url("logos/Workshop%204-5%20junio.jpg");
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.hero__overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, rgba(12, 18, 58, 0.88) 0%, rgba(21, 31, 108, 0.72) 45%, rgba(21, 31, 108, 0.18) 100%),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.1));
+}
+
+.hero__content {
+  position: relative;
+  z-index: 1;
+  width: min(900px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 88px 0 72px;
+}
+
+.hero h1 {
+  max-width: 820px;
+  margin: 0 0 20px;
+  color: #fff;
+  font-size: clamp(2.8rem, 6vw, 5.9rem);
+  line-height: 0.98;
+  font-weight: 800;
+}
+
+.hero__lead {
+  max-width: 680px;
+  color: rgba(255, 255, 255, 0.92);
+  font-size: clamp(1.05rem, 2vw, 1.35rem);
+  margin: 0 0 28px;
+}
+
+.eyebrow,
+.section-kicker {
+  margin: 0 0 12px;
+  color: var(--orange);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.hero .eyebrow {
+  color: #ffb08a;
+}
+
+.hero__actions,
+.download-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.button,
+.download-card {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 48px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 800;
+  transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+}
+
+.button {
+  padding: 0 18px;
+}
+
+.button:hover,
+.download-card:hover {
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+.button--primary {
+  color: #fff;
+  background: var(--orange);
+  box-shadow: 0 10px 28px rgba(255, 87, 0, 0.26);
+}
+
+.button--primary:hover {
+  color: #fff;
+}
+
+.button--light {
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.54);
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.button--light:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
+.logo-strip {
+  width: min(1120px, calc(100% - 40px));
+  margin: -42px auto 0;
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: center;
+  gap: 24px;
+  padding: 20px 28px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: var(--shadow);
+}
+
+.logo-strip img {
+  width: 100%;
+  max-height: 72px;
+  object-fit: contain;
+}
+
+.section {
+  padding: 84px 0;
+}
+
+.section--intro {
+  padding-top: 96px;
+}
+
+.section--muted {
+  background: var(--warm);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.two-column,
+.downloads-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.25fr);
+  gap: 56px;
+  align-items: start;
+}
+
+.section h2,
+.page-intro h1,
+.day-heading h2,
+.locations-section h2 {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 3.25rem);
+  line-height: 1.05;
+}
+
+.copy-block p:first-child,
+.page-intro p {
+  font-size: 1.1rem;
+}
+
+.section-heading {
+  max-width: 780px;
+  margin-bottom: 28px;
+}
+
+.speaker-grid,
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.speaker,
+.info-panel {
+  min-width: 0;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 10px 30px rgba(31, 41, 55, 0.06);
+}
+
+.speaker span,
+.info-panel h2 {
+  margin: 12px 0 8px;
+  font-size: 1.05rem;
+  color: var(--front);
+}
+
+.speaker small,
+.download-card small,
+.schedule-item span,
+.info-panel p {
+  color: var(--muted);
+}
+
+.speaker-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.speaker {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.speaker span {
+  margin: 0;
+  font-weight: 800;
+}
+
+.speaker small {
+  line-height: 1.45;
+}
+
+.downloads-band {
+  background: var(--front);
+  color: #fff;
+}
+
+.downloads-band h2,
+.downloads-band p {
+  color: #fff;
+}
+
+.downloads-band .section-kicker {
+  color: #ffb08a;
+}
+
+.downloads-band.compact {
+  margin-top: 56px;
+  padding: 36px;
+  border-radius: 8px;
+}
+
+.download-card {
+  flex: 1 1 210px;
+  min-height: 116px;
+  padding: 22px;
+  flex-direction: column;
+  align-items: flex-start;
+  color: var(--front);
+  background: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+}
+
+.download-card i {
+  color: var(--orange);
+  font-size: 1.8rem;
+}
+
+.download-card span {
+  color: var(--front);
+}
+
+.download-card:hover {
+  color: var(--front);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.18);
+}
+
+.page-intro,
+.program-notes,
+.program-day,
+.info-grid,
+.locations-section,
+.committee-section,
+.downloads-band.compact {
+  width: min(1120px, calc(100% - 40px));
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-intro {
+  padding: 44px 0 28px;
+  max-width: 1120px;
+}
+
+.page-intro p {
+  max-width: 720px;
+  color: var(--muted);
+}
+
+.program-notes {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-bottom: 34px;
+}
+
+.note {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--warm);
+}
+
+.note i {
+  color: var(--orange);
+  font-size: 1.25rem;
+}
+
+.program-day {
+  margin-top: 44px;
+}
+
+.day-heading {
+  margin-bottom: 18px;
+}
+
+.schedule,
+.session-block {
+  display: grid;
+  gap: 10px;
+}
+
+.schedule-item,
+.session-block {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.schedule-item {
+  display: grid;
+  grid-template-columns: 140px minmax(0, 1fr);
+  gap: 18px;
+  padding: 16px 18px;
+  align-items: start;
+}
+
+.schedule time,
+.talk time,
+.session-title time {
+  color: var(--front);
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.schedule-item div,
+.schedule-item span {
+  display: grid;
+  gap: 4px;
+}
+
+.keynote {
+  border-left: 5px solid var(--orange);
+  background: #fff8f3;
+}
+
+.break {
+  background: var(--warm);
+}
+
+.session-block {
+  padding: 18px;
+  border-left: 5px solid var(--front);
+}
+
+.session-title,
+.talk {
+  display: grid;
+  grid-template-columns: 140px minmax(0, 1fr);
+  gap: 18px;
+}
+
+.session-title {
+  align-items: baseline;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--line);
+}
+
+.session-title h3 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.talk {
+  padding: 10px 0 0;
+}
+
+.info-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.info-panel {
+  padding: 24px;
+}
+
+.info-panel i {
+  color: var(--orange);
+  font-size: 1.6rem;
+}
+
+.inline-link {
+  display: inline-flex;
+  font-weight: 800;
+  color: var(--front);
+}
+
+.locations-section {
+  margin-top: 56px;
+}
+
+.committee-section {
+  margin-top: 56px;
+}
+
+.location-map-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.location-card {
+  min-width: 0;
+  display: grid;
+  grid-template-rows: auto 260px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 10px 30px rgba(31, 41, 55, 0.06);
+  overflow: hidden;
+}
+
+.location-card__body {
+  padding: 22px;
+}
+
+.location-card h3 {
+  margin: 0 0 8px;
+  font-size: 1.15rem;
+}
+
+.location-card p {
+  margin: 0 0 14px;
+  color: var(--muted);
+}
+
+.location-card iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.committee-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.committee-panel {
+  padding: 24px;
+}
+
+.committee-panel h3 {
+  margin: 0 0 12px;
+  font-size: 1.15rem;
+}
+
+.committee-list {
+  margin: 0;
+  padding-left: 1.2rem;
+  color: var(--muted);
+}
+
+.committee-list li + li {
+  margin-top: 8px;
+}
+
+@media (max-width: 900px) {
+  .logo-strip,
+  .speaker-grid,
+  .info-grid,
+  .program-notes,
+  .two-column,
+  .downloads-layout,
+  .committee-grid,
+  .location-map-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .logo-strip {
+    margin-top: -24px;
+  }
+
+  .section {
+    padding: 64px 0;
+  }
+
+  .section--intro {
+    padding-top: 80px;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero {
+    min-height: 620px;
+    background-position: 58% center;
+  }
+
+  .hero__content {
+    padding-top: 72px;
+  }
+
+  .logo-strip {
+    padding: 18px;
+    gap: 18px;
+  }
+
+  .logo-strip img {
+    max-height: 58px;
+  }
+
+  .schedule-item,
+  .session-title,
+  .talk {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+
+  .session-block {
+    padding: 16px;
+  }
+
+  .downloads-band.compact {
+    padding: 24px;
+  }
+}
+
+
+/* ==========================================================================
+   SEIO Bayesian Working Group — extensions to the 827d22d workshop stylesheet.
+
+   APPEND THIS BLOCK VERBATIM TO THE END OF seio-bayes/styles.css.
+   Nothing above it is edited. Every override here relies on equal specificity
+   plus later source order, so this block MUST stay last in the file — including
+   its media queries, which restate the two original mobile hero rules that the
+   new non-media hero rules would otherwise silently defeat.
+   ========================================================================== */
+
+
+/* --- 1. Tokens -----------------------------------------------------------
+   All nine original tokens are untouched. Three of these name values the
+   original hard-coded; the fourth is the single portrait knob.
+   -------------------------------------------------------------------------- */
+
+:root {
+  --front-deep: #0c123a;                              /* was inline in .hero__overlay */
+  --tint: #fff8f3;                                    /* was inline in .keynote */
+  --shadow-card: 0 10px 30px rgba(31, 41, 55, 0.06);  /* was inline in .speaker, .info-panel, .location-card */
+  --photo: 144px;                                     /* exactly 2x the 288x288 portrait sources */
+}
+
+
+/* --- 2. Chrome the original never styled --------------------------------- */
+
+main.content {
+  padding-top: 0;
 }
 
 .dropdown-item {
-  padding: 0.5rem 0.7rem;
-  color: var(--muted);
-  font-family: var(--sans);
-  font-size: 0.83rem;
+  color: var(--ink);
+  font-weight: 600;
 }
 
 .dropdown-item:hover,
 .dropdown-item:focus,
 .dropdown-item.active {
-  color: var(--ink);
-  background: var(--paper);
+  color: var(--orange);
+  background: var(--warm);
 }
 
-/* ---- Footer ------------------------------------------------------------ */
-
 .nav-footer {
-  min-height: 0;
-  margin-top: 4.5rem;
-  padding: 1.5rem max(1.5rem, calc((100% - var(--page)) / 2));
-  color: var(--faint);
+  color: var(--muted);
   background: var(--paper);
-  border: 0;
-  border-top: 1px solid var(--rule);
-  font-family: var(--sans);
+  border-top: 1px solid var(--line);
+}
+
+.nav-footer a {
+  color: var(--front);
+}
+
+
+/* --- 3. Heading-scale corrections ----------------------------------------
+   .committee-section h2 is missing from the original clamp list, so it renders
+   at Bootstrap's h2 next to .locations-section h2 at clamp(). .downloads-band h2
+   is added so a compact band still scales if the .section class is ever dropped.
+   -------------------------------------------------------------------------- */
+
+.committee-section h2,
+.downloads-band h2 {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 3.25rem);
+  line-height: 1.05;
+}
+
+/* one card-title weight site-wide: .speaker span already establishes 800 */
+.location-card h3,
+.committee-panel h3,
+.session-title h3,
+.entry h3,
+.person h3 {
+  font-weight: 800;
+}
+
+
+/* --- 4. Section rhythm ---------------------------------------------------- */
+
+/* interior pages: 28px + 28px = 56px from the page masthead to the first heading */
+.page-intro + .section {
+  padding-top: 28px;
+}
+
+/* a compact navy card after a full-bleed section inherits that section's 84px
+   bottom padding as its gap, matching the site's inter-section rhythm */
+.section + .section.downloads-band.compact {
+  margin-top: 0;
+}
+
+/* the original leaves no air between the compact card and the footer */
+.downloads-band.compact {
+  margin-bottom: 88px;
+}
+
+/* .info-grid is in the original's self-width group; nesting it inside
+   .container would set it 20px narrower than the heading directly above it */
+.container .info-grid {
+  width: auto;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* trailing link under a copy block or a card list */
+.section-more {
+  margin: 24px 0 0;
+}
+
+/* breadcrumb inside a kicker: the global `a { color: var(--front) }` otherwise
+   renders it navy inside an orange label */
+.section-kicker a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: rgba(255, 87, 0, 0.4);
+  text-underline-offset: 3px;
+}
+
+.section-kicker a:hover,
+.section-kicker a:focus {
+  text-decoration-color: currentColor;
+}
+
+
+/* --- 5. Heroes: one mechanism, two modifiers ------------------------------
+   The original hard-codes the poster on .hero, which cannot serve two pages.
+   The image is moved onto modifiers; every other .hero declaration — the
+   clamp(500px,70vh,680px) height, the flex centring, the 900px content column,
+   the clamp(2.8rem,6vw,5.9rem) 800-weight white h1 — is left exactly as it is.
+   -------------------------------------------------------------------------- */
+
+.hero {
+  background-image: none;
+  background-color: var(--front-deep);
+}
+
+/* 5a. the event hero: the poster photograph, verbatim overlay plus a bottom fade */
+
+.hero--event {
+  background-image: url("logos/hero-workshop.jpg");
+  background-position: 50% 10%;
+}
+
+/* hero-workshop.jpg is 1800x1012 with a pale-blue title plate baked into its
+   bottom third. Cover-sized into a ~680px band and centred, that plate lands
+   directly behind the h1 and repeats the same words; 50% 10% pushes it to the
+   very bottom edge, where the added bottom fade and the overlapping logo strip
+   absorb it. The first and third gradient layers are the original's, unchanged. */
+.hero--event .hero__overlay {
+  background:
+    linear-gradient(90deg, rgba(12, 18, 58, 0.88) 0%, rgba(21, 31, 108, 0.72) 45%, rgba(21, 31, 108, 0.18) 100%),
+    linear-gradient(180deg, rgba(12, 18, 58, 0) 58%, rgba(12, 18, 58, 0.58) 100%),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.1));
+}
+
+/* 5b. the group hero: flat navy, art bleeding in from the right */
+
+.hero--group {
+  min-height: clamp(420px, 56vh, 560px);
+}
+
+.hero__art {
+  position: absolute;
+  inset: 0 0 0 46%;
+  background-image: url("logos/bayes-artwork.jpg");
+  background-position: 50% 34%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* the same navy family as the original scrim, in five stops instead of three,
+   and ending at 0.34 rather than 0.18 because bayes-artwork.jpg is raw pop art
+   edge to edge with none of the poster's calm orange and pale-blue bands.
+   The black wash layer is the original's, unchanged. */
+.hero--group .hero__overlay {
+  background:
+    linear-gradient(90deg,
+      var(--front-deep) 0%,
+      var(--front-deep) 34%,
+      rgba(12, 18, 58, 0.92) 48%,
+      rgba(21, 31, 108, 0.64) 74%,
+      rgba(21, 31, 108, 0.34) 100%),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.1));
+}
+
+.hero--group .hero__content {
+  width: min(1120px, calc(100% - 40px));
+}
+
+.hero--group .hero__content > * {
+  max-width: 640px;
+}
+
+.hero--group h1 {
+  margin-bottom: 12px;
+  font-size: clamp(2.4rem, 5vw, 4.4rem);
+}
+
+.hero__alt {
+  margin: 0 0 18px;
+  color: rgba(255, 255, 255, 0.66);
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  font-weight: 800;
+}
+
+.hero__eq {
+  max-width: 460px;
+  margin: 30px 0 0;
+  padding-top: 18px;
+  border-top: 1px solid rgba(255, 255, 255, 0.22);
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 1.05rem;
+  letter-spacing: 0;
+}
+
+
+/* --- 6. .strip — the fact twin of .logo-strip -----------------------------
+   Identical outer box to .logo-strip: same width, same -42px overlap, same
+   z-index, border, radius, shadow and 3-column grid, and the same effective
+   20px 28px cell padding. Only the fill differs. overflow:hidden lets the
+   hairline dividers meet the 8px radius; the cell padding moves to the cells
+   so the dividers run full height.
+   -------------------------------------------------------------------------- */
+
+.strip {
+  position: relative;
+  z-index: 2;
+  width: min(1120px, calc(100% - 40px));
+  margin: -42px auto 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.strip > div {
+  padding: 20px 28px;
+}
+
+.strip > div + div {
+  border-left: 1px solid var(--line);
+}
+
+.strip dt {
+  margin: 0 0 8px;
+  color: var(--orange);
   font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.strip dd {
+  margin: 0;
+  color: var(--ink);
+  font-size: 0.95rem;
   line-height: 1.5;
 }
 
-.nav-footer p { margin: 0; }
-.nav-footer a { color: var(--muted); }
-
-/* ---- Layout primitives ------------------------------------------------- */
-
-.wrap {
-  width: min(var(--page), calc(100% - var(--gutter)));
-  margin-inline: auto;
+.strip a {
+  color: var(--front);
+  font-weight: 700;
 }
 
-.section {
-  padding-block: 3.4rem;
-  border-top: 1px solid var(--line);
-}
 
-.section:first-of-type { border-top: 0; }
-
-/* label column + content column */
-.layout {
-  display: grid;
-  grid-template-columns: var(--col) minmax(0, 1fr);
-  gap: 0 var(--gap);
-  align-items: start;
-}
-
-.label {
-  margin: 0.35rem 0 0;
-  color: var(--faint);
-  font-family: var(--sans);
-  font-size: 0.7rem;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  line-height: 1.4;
-  text-transform: uppercase;
-}
-
-.prose { max-width: 37rem; }
-.prose > * + * { margin-top: 1.05em; }
-.prose h2 + p { margin-top: 0.9em; }
-
-.lead {
-  max-width: 40rem;
-  color: var(--ink);
-  font-size: 1.18rem;
-  line-height: 1.55;
-}
-
-.stack > * + * { margin-top: 1.6rem; }
-
-.more {
-  display: inline-block;
-  margin-top: 1.4rem;
-  font-family: var(--sans);
-  font-size: 0.83rem;
-  font-weight: 500;
-}
-
-/* ---- Masthead ---------------------------------------------------------- */
-
-.masthead { padding: 4.2rem 0 3.2rem; }
-
-.masthead__eq {
-  margin: 0 0 1.4rem;
-  color: var(--accent);
-  font-family: var(--serif);
-  font-size: 1.16rem;
-  letter-spacing: 0.01em;
-}
-
-.masthead__eq i { font-style: italic; }
-
-.masthead h1 { max-width: 26ch; }
-
-.masthead__alt {
-  margin: 0.6rem 0 0;
-  color: var(--muted);
-  font-size: 1.12rem;
-  font-style: italic;
-}
-
-.masthead .lead { margin-top: 1.9rem; }
-
-/* ---- Page heads (interior pages) --------------------------------------- */
-
-.pagehead { padding: 3.4rem 0 2.6rem; }
-.pagehead h1 { max-width: 26ch; }
-.pagehead .lead { margin-top: 1.1rem; font-size: 1.1rem; color: var(--muted); }
-
-.crumb {
-  margin: 0 0 1.1rem;
-  color: var(--faint);
-  font-family: var(--sans);
-  font-size: 0.76rem;
-  font-weight: 500;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
-
-.crumb a { color: inherit; text-decoration-color: rgba(0, 0, 0, 0.2); }
-.crumb a:hover { color: var(--accent); }
-
-/* ---- Definition rows (facts) ------------------------------------------- */
+/* --- 7. .facts — the in-brief list ----------------------------------------
+   Written as <dl class="info-panel facts">, so the box (1px --line, 8px radius,
+   white, --shadow-card) is inherited rather than re-declared. Rows use the
+   site's one label geometry, 140px + 18px, and the dt uses .section-kicker
+   typography exactly.
+   -------------------------------------------------------------------------- */
 
 .facts {
-  margin: 0;
-  border-top: 1px solid var(--line);
+  margin: 24px 0 0;
+  padding: 0 22px;
 }
 
 .facts > div {
   display: grid;
-  grid-template-columns: 10rem minmax(0, 1fr);
-  gap: 0 1.5rem;
-  padding: 0.62rem 0;
-  border-bottom: 1px solid var(--line);
+  grid-template-columns: 140px minmax(0, 1fr);
+  gap: 18px;
+  padding: 18px 0;
+  border-top: 1px solid var(--line);
+}
+
+.facts > div:first-child {
+  border-top: 0;
 }
 
 .facts dt {
-  color: var(--faint);
-  font-family: var(--sans);
+  margin: 0;
+  color: var(--orange);
   font-size: 0.78rem;
-  font-weight: 500;
-  line-height: 1.7;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  line-height: 1.65;
+  text-transform: uppercase;
 }
 
 .facts dd {
   margin: 0;
-  font-family: var(--sans);
-  font-size: 0.86rem;
-  line-height: 1.7;
+  color: var(--ink);
 }
 
-/* ---- Entry lists (activities, meetings, speakers) ---------------------- */
 
-.entries { border-top: 1px solid var(--line); }
-
-.entries .entry:last-child { border-bottom: 0; }
-
-.entry {
-  display: grid;
-  grid-template-columns: var(--col) minmax(0, 1fr);
-  gap: 0 var(--gap);
-  padding: 1.55rem 0;
-  border-bottom: 1px solid var(--line);
-}
-
-.entry__when {
-  margin: 0.2rem 0 0;
-  color: var(--muted);
-  font-family: var(--sans);
-  font-size: 0.8rem;
-  font-weight: 600;
-  font-variant-numeric: tabular-nums;
-  line-height: 1.5;
-}
-
-.entry__when span {
-  display: block;
-  color: var(--faint);
-  font-weight: 500;
-}
-
-.entry h3 { margin-bottom: 0.25rem; }
-
-.entry__where {
-  margin: 0 0 0.6rem;
-  color: var(--faint);
-  font-family: var(--sans);
-  font-size: 0.82rem;
-}
-
-.entry p:not(.entry__where) { max-width: 40rem; color: var(--muted); }
-
-.entry__links {
-  margin-top: 0.75rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.35rem 1.4rem;
-  font-family: var(--sans);
-  font-size: 0.81rem;
-}
-
-.now {
-  display: inline-flex;
-  gap: 0.42rem;
-  align-items: center;
-  margin-bottom: 0.5rem;
-  color: var(--accent);
-  font-family: var(--sans);
-  font-size: 0.68rem;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-
-.now::before {
-  content: "";
-  width: 0.4rem;
-  height: 0.4rem;
-  border-radius: 50%;
-  background: var(--accent);
-}
-
-/* nested detail, e.g. speakers of a past workshop */
-.entry details { margin-top: 0.85rem; max-width: 40rem; }
-
-.entry summary {
-  color: var(--navy);
-  cursor: pointer;
-  font-family: var(--sans);
-  font-size: 0.81rem;
-  font-weight: 500;
-}
-
-.entry summary::marker { color: var(--faint); }
-
-.entry details > div {
-  padding-top: 0.7rem;
-  color: var(--muted);
-  font-size: 0.94rem;
-}
-
-.entry details p + p { margin-top: 0.55rem; }
-
-/* ---- People ------------------------------------------------------------ */
+/* --- 8. .person — .speaker's box, .schedule-item's interior ---------------- */
 
 .people {
   display: grid;
-  gap: 2.4rem 2.6rem;
-  padding-top: 0.2rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
 }
 
-.people--lead  { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-.people--board { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-
 .person {
+  min-width: 0;
   display: grid;
-  grid-template-columns: auto minmax(0, 1fr);
-  gap: 0 1.2rem;
-  align-items: start;
+  grid-template-columns: var(--photo) minmax(0, 1fr);
+  gap: 18px;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: var(--shadow-card);
 }
 
 .person__photo {
   display: block;
-  width: 8.25rem;
-  height: auto;
-  margin: 0;
-  aspect-ratio: 4 / 5;
+  width: var(--photo);
+  height: var(--photo);
   object-fit: cover;
-  background: var(--line);
   border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--warm);
 }
 
-.people--lead .person__photo { width: 10rem; }
-
-.person__role {
-  margin: 0 0 0.3rem;
-  color: var(--faint);
-  font-family: var(--sans);
-  font-size: 0.69rem;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+.person h3 {
+  margin: 0 0 4px;
+  color: var(--front);
+  font-size: 1.05rem;
+  line-height: 1.3;
 }
-
-.person h3 { margin-bottom: 0.18rem; }
 
 .person__affil {
-  margin: 0 0 0.28rem;
+  margin: 0 0 8px;
   color: var(--muted);
-  font-family: var(--sans);
-  font-size: 0.82rem;
   line-height: 1.45;
 }
 
-.person__mail {
-  font-family: var(--sans);
-  font-size: 0.8rem;
-  overflow-wrap: anywhere;
+.person .inline-link {
+  word-break: break-word;
 }
 
-/* ---- File lists -------------------------------------------------------- */
 
-.filelist { border-top: 1px solid var(--line); }
+/* --- 9. .entry — .schedule-item at a coarser grain ------------------------- */
 
-.filelist a {
+.entries {
+  display: grid;
+  gap: 14px;
+}
+
+.entry {
+  display: grid;
+  grid-template-columns: 140px minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.entry__when {
+  margin: 0;
+  color: var(--front);
+  font-weight: 800;
+  line-height: 1.3;
+}
+
+.entry__when span {
+  display: block;
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.entry > div > * {
+  margin: 0;
+}
+
+.entry > div > * + * {
+  margin-top: 10px;
+}
+
+.entry h3 {
+  font-size: 1.15rem;
+  line-height: 1.3;
+}
+
+.entry__where {
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.entry__links {
   display: flex;
-  gap: 1.5rem;
-  align-items: baseline;
-  justify-content: space-between;
-  padding: 0.78rem 0;
-  color: var(--ink);
-  border-bottom: 1px solid var(--line);
-  text-decoration: none;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-top: 14px;
 }
 
-.filelist a:hover { color: var(--accent); }
+.entry__links a {
+  display: inline-flex;
+  color: var(--front);
+  font-weight: 800;
+}
 
-.filelist .ext {
-  color: var(--faint);
-  font-family: var(--sans);
-  font-size: 0.71rem;
-  font-weight: 500;
+/* the item under way: .keynote's declarations, verbatim */
+.entry--now {
+  border-left: 5px solid var(--orange);
+  background: var(--tint);
+}
+
+/* status pill. Navy fill, not orange: #fff on #ff5700 is 3.4:1 and fails AA at
+   0.78rem bold, #fff on #151f6c is 13:1, and no new colour enters the palette.
+   The orange in this component is the 5px rail. Type is .section-kicker exactly. */
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 6px;
+  color: #fff;
+  background: var(--front);
+  font-size: 0.78rem;
+  font-weight: 800;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  white-space: nowrap;
 }
 
-/* ---- Figures and logos ------------------------------------------------- */
-
-.figure { margin: 0; }
-
-.figure img {
-  display: block;
-  width: 100%;
-  height: auto;
+/* the 2024 disclosure: this page's only warm ground */
+.entry details {
   border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--warm);
 }
 
-.figure figcaption {
-  margin-top: 0.6rem;
-  color: var(--faint);
-  font-family: var(--sans);
-  font-size: 0.76rem;
-  line-height: 1.5;
-}
-
-.orgs {
-  display: flex;
-  gap: 3rem;
-  align-items: center;
-  flex-wrap: wrap;
-  padding-top: 0.4rem;
-}
-
-.orgs img {
-  width: auto;
-  height: auto;
-  object-fit: contain;
-}
-
-.orgs__seio  { height: 52px !important; }
-.orgs__cunef { height: 58px !important; }
-
-/* ---- Programme --------------------------------------------------------- */
-
-.schedule { border-top: 1px solid var(--rule); }
-
-.schedule .slot:last-child { border-bottom: 0; }
-
-.slot {
-  display: grid;
-  grid-template-columns: var(--col) minmax(0, 1fr);
-  gap: 0 var(--gap);
-  padding: 0.85rem 0;
-  border-bottom: 1px solid var(--line);
-}
-
-.slot > time {
-  color: var(--muted);
-  font-family: var(--sans);
-  font-size: 0.8rem;
-  font-weight: 600;
-  font-variant-numeric: tabular-nums;
-  white-space: nowrap;
-}
-
-.slot__kind {
-  margin: 0 0 0.22rem;
-  color: var(--faint);
-  font-family: var(--sans);
-  font-size: 0.68rem;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-
-.slot__title {
-  display: block;
-  color: var(--navy-deep);
-  font-size: 1.02rem;
-  font-weight: 600;
-}
-
-.slot__sub {
-  margin: 0.2rem 0 0;
-  max-width: 44rem;
-  color: var(--muted);
-  font-size: 0.96rem;
-}
-
-.slot--minor > time,
-.slot--minor .slot__title {
-  color: var(--faint);
-  font-weight: 500;
-}
-
-.slot--minor .slot__title { font-size: 0.92rem; font-family: var(--sans); }
-
-.talks {
-  margin: 0.75rem 0 0;
-  padding: 0;
+.entry summary {
+  padding: 12px 18px;
+  color: var(--front);
+  font-weight: 800;
   list-style: none;
-  border-top: 1px solid var(--line);
+  cursor: pointer;
 }
 
-.talks li {
-  display: grid;
-  grid-template-columns: 4.2rem minmax(0, 1fr);
-  gap: 0 1.2rem;
-  padding: 0.5rem 0;
+.entry summary::-webkit-details-marker {
+  display: none;
+}
+
+.entry summary::before {
+  content: "+";
+  display: inline-block;
+  width: 1.1em;
+  color: var(--orange);
+  font-weight: 800;
+}
+
+.entry details[open] summary::before {
+  content: "\2212";
+}
+
+.entry details[open] summary {
   border-bottom: 1px solid var(--line);
 }
 
-.talks li:last-child { border-bottom: 0; padding-bottom: 0; }
-
-.talks time {
-  color: var(--faint);
-  font-family: var(--sans);
-  font-size: 0.76rem;
-  font-variant-numeric: tabular-nums;
-  line-height: 1.7;
+.entry details > div {
+  padding: 16px 18px;
 }
 
-.talks span { color: var(--muted); font-size: 0.95rem; }
-.talks b { color: var(--ink); font-weight: 600; }
-
-.daybreak {
-  padding: 2.6rem 0 1.1rem;
-  border-top: 1px solid var(--line);
-}
-
-.daybreak:first-child { border-top: 0; padding-top: 0.4rem; }
-.daybreak h2 { font-size: 1.4rem; }
-
-.daybreak p {
-  margin: 0.25rem 0 0;
-  color: var(--faint);
-  font-family: var(--sans);
-  font-size: 0.82rem;
-}
-
-/* ---- Location / committee grids ---------------------------------------- */
-
-.cards {
-  display: grid;
-  gap: 0;
-  border-top: 1px solid var(--line);
-}
-
-.cards--3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.cards--2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-
-.cards > article {
-  min-width: 0;
-  padding: 1.3rem 1.8rem 1.5rem 0;
-  border-bottom: 1px solid var(--line);
-}
-
-.cards--3 > article + article,
-.cards--2 > article + article {
-  padding-left: 1.8rem;
-  border-left: 1px solid var(--line);
-}
-
-.cards h3 { margin-bottom: 0.4rem; }
-
-.cards p {
-  margin: 0 0 0.35rem;
+.entry details p {
+  margin: 0 0 10px;
   color: var(--muted);
-  font-family: var(--sans);
-  font-size: 0.85rem;
-  line-height: 1.55;
 }
 
-.cards ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+.entry details p:last-child {
+  margin-bottom: 0;
+}
+
+
+/* --- 10. Small component additions ---------------------------------------- */
+
+/* keynote affiliation, between .speaker span (800, navy) and .speaker small (muted) */
+.speaker em {
   color: var(--muted);
-  font-family: var(--sans);
-  font-size: 0.85rem;
-  line-height: 1.7;
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.35;
 }
 
-.cards a {
-  font-family: var(--sans);
-  font-size: 0.81rem;
+/* an email address in a 210px download card has nothing to break on */
+.download-card small {
+  word-break: break-word;
 }
 
-/* ---- Speaker / talk list ----------------------------------------------- */
 
-.talklist {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  border-top: 1px solid var(--line);
+/* --- 11b. Corrections to defects carried over from the original ----------
+   Three fixes, all of them things the 827d22d stylesheet got wrong rather than
+   changes of character. They sit before the responsive block so that section
+   stays last, as its own comment requires.
+   -------------------------------------------------------------------------- */
+
+/* `.page-intro p { color: var(--muted) }` (0,2,0) outranks
+   `.eyebrow, .section-kicker { color: var(--orange) }` (0,1,0), so the masthead
+   kicker rendered grey while every other kicker on the same page rendered
+   orange. */
+.page-intro .section-kicker {
+  color: var(--orange);
 }
 
-.talklist li {
-  display: grid;
-  grid-template-columns: minmax(0, 15rem) minmax(0, 1fr);
-  gap: 0 var(--gap);
-  padding: 0.85rem 0;
-  border-bottom: 1px solid var(--line);
+/* Quarto's theme puts a bottom rule and 0.5rem of padding under every h2, and
+   the original sets `.section h2, .page-intro h1 { margin: 0 }`. A paragraph in
+   the same column therefore sat directly on that rule; with a heading that
+   wraps to two lines the two collide outright. */
+.page-intro h1 + p,
+.section-heading h2 + p,
+.downloads-layout h2 + p {
+  margin-top: 16px;
 }
 
-.talklist b {
-  display: block;
-  color: var(--navy-deep);
-  font-weight: 600;
+/* the global `a { color: var(--front) }` made a link inside the navy band navy
+   on navy - invisible, not merely low contrast. Download cards keep their own
+   colour. */
+.downloads-band a:not(.download-card) {
+  color: #fff;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.45);
+  text-underline-offset: 3px;
 }
 
-.talklist .affil {
-  display: block;
-  color: var(--faint);
-  font-family: var(--sans);
-  font-size: 0.78rem;
-  line-height: 1.5;
+.downloads-band a:not(.download-card):hover,
+.downloads-band a:not(.download-card):focus {
+  color: #ffb08a;
+  text-decoration-color: currentColor;
 }
 
-.talklist .what {
-  color: var(--muted);
-  font-size: 0.97rem;
-}
 
-.figure--half { max-width: 32rem; }
+/* --- 11. Responsive ------------------------------------------------------
+   This section MUST remain the last thing in the file: the 640px block below
+   restates .hero background-position, which the non-media .hero--event rule in
+   section 5 would otherwise defeat at every width (equal specificity, later
+   source order — media queries add none).
+   -------------------------------------------------------------------------- */
 
-@media (max-width: 820px) {
-  .talklist li { grid-template-columns: minmax(0, 1fr); gap: 0.3rem; }
-}
-
-/* ---- Responsive -------------------------------------------------------- */
-
-@media (max-width: 1000px) {
-  .cards--3 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .cards--3 > article:nth-child(odd) { padding-left: 0; border-left: 0; }
-  .cards--3 > article:nth-child(even) { padding-left: 1.8rem; border-left: 1px solid var(--line); }
-}
-
-@media (max-width: 820px) {
-  :root { --gutter: 2.25rem; }
-
-  .layout,
-  .entry,
-  .slot {
-    grid-template-columns: minmax(0, 1fr);
-    gap: 0;
+@media (max-width: 900px) {
+  .strip,
+  .people {
+    grid-template-columns: 1fr;
   }
 
-  .label { margin: 0 0 0.85rem; }
-  .entry__when { margin: 0 0 0.55rem; }
-  .entry__when span { display: inline; }
-  .slot > time { display: block; margin-bottom: 0.3rem; }
+  .strip {
+    margin-top: -24px;
+  }
 
-  .people--lead { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem 1.8rem; }
-  .people--lead .person__photo { width: 8.25rem; }
-  .facts > div { grid-template-columns: minmax(0, 1fr); gap: 0; padding: 0.55rem 0; }
-  .facts dt { font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; }
-}
-
-@media (max-width: 560px) {
-  :root { --gutter: 1.9rem; }
-
-  body { font-size: 16.5px; }
-
-  .masthead { padding: 3rem 0 2.4rem; }
-  .section { padding-block: 2.6rem; }
-
-  .people--lead,
-  .people--board,
-  .cards--3,
-  .cards--2 { grid-template-columns: minmax(0, 1fr); }
-
-  .cards > article,
-  .cards--3 > article:nth-child(even) {
-    padding: 1.2rem 0 1.3rem;
+  .strip > div + div {
     border-left: 0;
+    border-top: 1px solid var(--line);
   }
 
-  .orgs { gap: 2rem; }
-  .orgs__seio  { height: 42px !important; }
-  .orgs__cunef { height: 48px !important; }
-  .person__photo,
-  .people--lead .person__photo { width: 7rem; }
+  /* the split hero cannot split on a phone: the art goes full bleed under an
+     almost flat wash, so the headline never crosses a bright region */
+  .hero--group .hero__art {
+    inset: 0;
+    background-position: 58% 34%;
+  }
 
-  .talks li { grid-template-columns: minmax(0, 1fr); gap: 0.1rem; }
+  .hero--group .hero__overlay {
+    background:
+      linear-gradient(90deg, rgba(12, 18, 58, 0.93) 0%, rgba(21, 31, 108, 0.86) 55%, rgba(21, 31, 108, 0.74) 100%),
+      linear-gradient(0deg, rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.1));
+  }
+
+  .hero--group .hero__content > * {
+    max-width: none;
+  }
 }
 
-@media (prefers-reduced-motion: reduce) {
-  html { scroll-behavior: auto; }
+@media (max-width: 640px) {
+  /* restores the original's mobile crop, which section 5's .hero--event rule
+     would otherwise override inside this very breakpoint */
+  .hero--event {
+    background-position: 58% center;
+  }
+
+  /* at phone width the text spans the full frame, including the region where
+     the 90deg scrim has decayed to 0.18 over the poster's pale title plate */
+  .hero--event .hero__overlay {
+    background:
+      linear-gradient(90deg, rgba(12, 18, 58, 0.9) 0%, rgba(21, 31, 108, 0.8) 55%, rgba(21, 31, 108, 0.62) 100%),
+      linear-gradient(0deg, rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.1));
+  }
+
+  .strip > div {
+    padding: 18px;
+  }
+
+  .facts {
+    padding: 0 18px;
+  }
+
+  .facts > div {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+
+  .entry {
+    grid-template-columns: 1fr;
+    gap: 8px;
+    padding: 18px;
+  }
+
+  .downloads-band.compact {
+    margin-bottom: 56px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* the portrait keeps its 144px — requirement 5 holds at every width */
+  .person {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
 }
