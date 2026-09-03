@@ -20,19 +20,19 @@ toc: false
     </div>
     <div class="people">
       <article class="person">
-        <img class="person__photo" src="people/roi-naveiro.jpg" width="288" height="288" alt="Roi Naveiro Flores">
-        <div>
-          <h3>Roi Naveiro Flores</h3>
-          <p class="person__affil">CUNEF Universidad</p>
-          <a class="inline-link" href="mailto:roi.naveiro@cunef.edu">roi.naveiro@cunef.edu</a>
-        </div>
-      </article>
-      <article class="person">
         <img class="person__photo" src="people/remedios-sillero.jpg" width="288" height="288" alt="M. Remedios Sillero-Denamiel">
         <div>
           <h3>M. Remedios Sillero-Denamiel</h3>
           <p class="person__affil">Universidad de Sevilla</p>
           <a class="inline-link" href="mailto:rsillero@us.es">rsillero@us.es</a>
+        </div>
+      </article>
+      <article class="person">
+        <img class="person__photo" src="people/roi-naveiro.jpg" width="288" height="288" alt="Roi Naveiro Flores">
+        <div>
+          <h3>Roi Naveiro Flores</h3>
+          <p class="person__affil">CUNEF Universidad</p>
+          <a class="inline-link" href="mailto:roi.naveiro@cunef.edu">roi.naveiro@cunef.edu</a>
         </div>
       </article>
     </div>
@@ -95,15 +95,15 @@ toc: false
       </p>
     </div>
     <div class="download-cards">
-      <a class="download-card" href="mailto:roi.naveiro@cunef.edu">
-        <i class="bi bi-envelope" aria-hidden="true"></i>
-        <span>Roi Naveiro</span>
-        <small>roi.naveiro@cunef.edu</small>
-      </a>
       <a class="download-card" href="mailto:rsillero@us.es">
         <i class="bi bi-envelope" aria-hidden="true"></i>
         <span>M. Remedios Sillero-Denamiel</span>
         <small>rsillero@us.es</small>
+      </a>
+      <a class="download-card" href="mailto:roi.naveiro@cunef.edu">
+        <i class="bi bi-envelope" aria-hidden="true"></i>
+        <span>Roi Naveiro</span>
+        <small>roi.naveiro@cunef.edu</small>
       </a>
     </div>
   </div>
