@@ -1,13 +1,15 @@
 ---
-title: "Venue & Downloads"
+title: "Venue & documents"
+description: "Venue, dinner, committees and downloads for the II International Workshop on Bayesian Statistics."
+page-layout: full
 toc: false
 ---
 
 ```{=html}
 <section class="page-intro">
-  <p class="section-kicker">Practical information</p>
+  <p class="overline"><a href="conference.html">2026 Workshop</a> / Practical information</p>
   <h1>Venue and documents</h1>
-  <p>The workshop will be held at the LPC Campus of CUNEF Universidad in Madrid.</p>
+  <p>The workshop was held at the LPC Campus of CUNEF Universidad in Madrid.</p>
 </section>
 
 <section class="info-grid">
@@ -21,7 +23,7 @@ toc: false
   <article class="info-panel">
     <i class="bi bi-camera" aria-hidden="true"></i>
     <h2>Group photo</h2>
-    <p>The group photo will be taken at the entrance of the ALMANSA campus on Thursday, 4 June 2026 at 20:00.</p>
+    <p>The group photo was taken at the entrance of the ALMANSA campus on Thursday, 4 June 2026 at 20:00.</p>
   </article>
   <article class="info-panel">
     <i class="bi bi-cup-hot" aria-hidden="true"></i>
@@ -39,7 +41,7 @@ toc: false
 
 <section class="locations-section">
   <div class="section-heading">
-    <p class="section-kicker">Conference locations</p>
+    <p class="section-index">Conference locations</p>
     <h2>Maps and directions</h2>
   </div>
   <div class="location-map-grid">
@@ -72,7 +74,7 @@ toc: false
 
 <section class="committee-section">
   <div class="section-heading">
-    <p class="section-kicker">Committees</p>
+    <p class="section-index">Committees</p>
     <h2>Organising and scientific committees</h2>
   </div>
   <div class="committee-grid">
@@ -101,9 +103,9 @@ toc: false
 <section class="section downloads-band compact" id="downloads">
   <div class="downloads-layout">
     <div>
-      <p class="section-kicker">Downloads</p>
+      <p class="section-index">Downloads</p>
       <h2>Workshop documents</h2>
-      <p>The book of abstracts and brochure are available as PDFs.</p>
+      <p>The book of abstracts and brochure are preserved as PDFs.</p>
     </div>
     <div class="download-cards">
       <a class="download-card" href="book_of_abstracts_bayes_cunef.pdf" download>

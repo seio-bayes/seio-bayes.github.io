@@ -1,13 +1,15 @@
 ---
-title: "Program"
+title: "Programme"
+description: "Complete programme of the II International Workshop on Bayesian Statistics, 4–5 June 2026."
+page-layout: full
 toc: false
 ---
 
 ```{=html}
 <section class="page-intro">
-  <p class="section-kicker">Scientific program</p>
-  <h1>Workshop program</h1>
-  <p>All sessions take place in Aula F1.2 at the LPC Campus unless otherwise noted.</p>
+  <p class="overline"><a href="conference.html">2026 Workshop</a> / Programme</p>
+  <h1>Workshop programme</h1>
+  <p>All sessions took place in Aula F1.2 at the LPC Campus unless otherwise noted.</p>
 </section>
 
 <section class="program-notes">
@@ -92,9 +94,9 @@ toc: false
 <section class="section downloads-band compact">
   <div class="downloads-layout">
     <div>
-      <p class="section-kicker">Full details</p>
+      <p class="section-index">Full details</p>
       <h2>Workshop documents</h2>
-      <p>The book of abstracts and brochure are available as PDFs.</p>
+      <p>The book of abstracts and brochure are preserved as PDFs.</p>
     </div>
     <div class="download-cards">
       <a class="download-card" href="book_of_abstracts_bayes_cunef.pdf" download>

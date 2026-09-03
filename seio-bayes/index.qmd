@@ -1,90 +1,78 @@
 ---
-title: ""
+title: "Bayesian Working Group"
+description: "The Bayesian Working Group of the Spanish Society of Statistics, Operations Research and Data Science (SEIO)."
 page-layout: full
 toc: false
 ---
 
 ```{=html}
-<section class="hero">
-  <div class="hero__overlay"></div>
-  <div class="hero__content">
-    <p class="eyebrow">CUNEF Universidad, Madrid &bull; June 4&ndash;5, 2026</p>
-    <h1>II International Workshop on Bayesian Statistics</h1>
-    <p class="hero__lead">
-      Organised by the Bayesian Working Group of SEIO and CUNEF Universidad.
-    </p>
-    <div class="hero__actions">
-      <a class="button button--primary" href="program.html">
-        <i class="bi bi-calendar-event" aria-hidden="true"></i>
-        View program
-      </a>
-      <a class="button button--light" href="book_of_abstracts_bayes_cunef.pdf" download>
-        <i class="bi bi-download" aria-hidden="true"></i>
-        Book of abstracts
-      </a>
+<section class="group-hero">
+  <div class="group-hero__copy">
+    <p class="overline">Bayesian Working Group · SEIO</p>
+    <h1>A meeting point for Bayesian statistics in Spain.</h1>
+    <p class="group-hero__lead">We bring together researchers and practitioners who develop, study and apply Bayesian methods across statistics, operations research and data science.</p>
+    <div class="action-row">
+      <a class="text-action" href="people.html">Meet the group <span aria-hidden="true">→</span></a>
+      <a class="text-action text-action--quiet" href="activities.html">Our activities <span aria-hidden="true">→</span></a>
+    </div>
+  </div>
+  <div class="group-hero__mark" aria-label="Bayes' theorem">
+    <span class="mark-label">From prior to posterior</span>
+    <span class="equation">p(θ | x) ∝ p(x | θ) p(θ)</span>
+    <div class="distribution distribution--prior"><span>prior</span></div>
+    <div class="distribution distribution--posterior"><span>posterior</span></div>
+  </div>
+</section>
+
+<section class="home-intro ruled-section">
+  <p class="section-index">01 / About the group</p>
+  <div class="editorial-grid">
+    <h2>Bayesian ideas, shared across a national community.</h2>
+    <div class="prose-large">
+      <p>The Bayesian Working Group is part of the <a href="https://www.seio.es/">Spanish Society of Statistics, Operations Research and Data Science (SEIO)</a>. It was founded at the 36th SEIO Congress in Toledo in 2016 as a point of reference for the Bayesian community in Spain.</p>
+      <p>Our role is practical: to make connections between researchers, create opportunities for scientific exchange, support early-career colleagues and give Bayesian work greater visibility.</p>
     </div>
   </div>
 </section>
 
-<section class="logo-strip" aria-label="Organising institutions">
-  <img src="logos/bayes2.png" alt="Bayesian Working Group logo">
-  <img src="logos/Logo-seio-header.png" alt="SEIO logo">
-  <img src="logos/CUNEF%20Universidad_Fondo%20transparente.png" alt="CUNEF Universidad logo">
-</section>
-
-<section class="section section--intro">
-  <div class="container two-column">
-    <div>
-      <p class="section-kicker">Workshop Overview</p>
-      <h2>Workshop overview</h2>
-    </div>
-    <div class="copy-block">
-      <p>
-        The II International Workshop on Bayesian Statistics will take place on 4&ndash;5 June 2026 at CUNEF Universidad, Madrid. The workshop is organised by the Bayesian Working Group of SEIO and CUNEF Universidad.
-      </p>
-      <p>
-        The meeting is planned as a single-track event with plenary talks, contributed sessions, coffee breaks, lunches, and a closing session. Registration is free thanks to the support of SEIO and CUNEF Universidad.
-      </p>
-    </div>
+<section class="what-we-do ruled-section">
+  <p class="section-index">02 / What we do</p>
+  <div class="principles">
+    <article>
+      <span class="principle-number">A</span>
+      <h3>Convene</h3>
+      <p>We organise workshops and sessions where new Bayesian research can be presented and discussed.</p>
+    </article>
+    <article>
+      <span class="principle-number">B</span>
+      <h3>Connect</h3>
+      <p>We link Bayesian researchers across universities, research centres and fields of application.</p>
+    </article>
+    <article>
+      <span class="principle-number">C</span>
+      <h3>Support</h3>
+      <p>We create space for early-career researchers and help circulate relevant opportunities and resources.</p>
+    </article>
   </div>
 </section>
 
-<section class="section section--muted">
-  <div class="container">
-    <div class="section-heading">
-      <p class="section-kicker">Scientific program</p>
-      <h2>Keynote speakers</h2>
-    </div>
-    <div class="speaker-grid">
-      <article class="speaker"><span>Peter M&uuml;ller</span><small>A semi-parametric Bayesian GLM and applications to outcome dependent sampling</small></article>
-      <article class="speaker"><span>David Rossell</span><small>High-dimensional model selection: transfer learning and projected computation</small></article>
-      <article class="speaker"><span>Stefano Cabras</span><small>Objective Bayesian Model Uncertainty Quantification under Missing Data</small></article>
-      <article class="speaker"><span>Sylvia Fr&uuml;hwirth-Schnatter</span><small>Sparse Bayesian Factor Analysis for Gaussian and non-Gaussian Data</small></article>
-      <article class="speaker"><span>Lola Ugarte</span><small>On smoothing risk patterns in areal data</small></article>
-      <article class="speaker"><span>Jos&eacute; Miguel Hern&aacute;ndez-Lobato</span><small>Advances in Scalable Gaussian Processes</small></article>
-      <article class="speaker"><span>Daniel Hern&aacute;ndez-Lobato</span><small>Joint entropy search for multi-objective Bayesian optimization with constraints and multiple fidelities</small></article>
-    </div>
+<section class="featured-event">
+  <div class="featured-event__image" role="img" aria-label="Artwork for the Second International Workshop on Bayesian Statistics"></div>
+  <div class="featured-event__copy">
+    <p class="section-index">Latest meeting · Madrid, 2026</p>
+    <h2>II International Workshop on Bayesian Statistics</h2>
+    <p>The group’s second international workshop brought the Bayesian community together at CUNEF Universidad. The complete event archive—including the programme, abstracts, practical information and committees—is available here.</p>
+    <a class="text-action text-action--light" href="conference.html">Visit the workshop archive <span aria-hidden="true">→</span></a>
   </div>
 </section>
 
-<section class="section downloads-band" id="downloads">
-  <div class="container downloads-layout">
-    <div>
-      <p class="section-kicker">Documents</p>
-      <h2>Workshop documents</h2>
-      <p>The book of abstracts and the workshop brochure are available as PDFs.</p>
-    </div>
-    <div class="download-cards">
-      <a class="download-card" href="book_of_abstracts_bayes_cunef.pdf" download>
-        <i class="bi bi-file-earmark-pdf" aria-hidden="true"></i>
-        <span>Book of Abstracts</span>
-        <small>PDF</small>
-      </a>
-      <a class="download-card" href="folleto-2pag.pdf" download>
-        <i class="bi bi-file-earmark-arrow-down" aria-hidden="true"></i>
-        <span>Brochure</span>
-        <small>PDF</small>
-      </a>
+<section class="join-band ruled-section">
+  <p class="section-index">03 / Take part</p>
+  <div class="editorial-grid">
+    <h2>Join the conversation.</h2>
+    <div class="prose-large">
+      <p>If you work with Bayesian methods and would like to join the group, propose an activity or update your directory entry, contact the coordinators.</p>
+      <p><a class="text-action" href="mailto:roi.naveiro@cunef.edu,rsillero@us.es">Write to the coordinators <span aria-hidden="true">→</span></a></p>
     </div>
   </div>
 </section>

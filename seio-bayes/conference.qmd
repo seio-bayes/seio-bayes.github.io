@@ -1,0 +1,62 @@
+---
+title: "II International Workshop on Bayesian Statistics"
+description: "Archive of the II International Workshop on Bayesian Statistics, held at CUNEF Universidad in Madrid on 4–5 June 2026."
+page-layout: full
+toc: false
+---
+
+```{=html}
+<section class="workshop-hero">
+  <div class="workshop-hero__image"></div>
+  <div class="workshop-hero__copy">
+    <p class="overline">Event archive · 4–5 June 2026 · Madrid</p>
+    <h1>II International Workshop on Bayesian Statistics</h1>
+    <p>Organised by the Bayesian Working Group of SEIO and CUNEF Universidad.</p>
+    <div class="action-row">
+      <a class="text-action text-action--light" href="program.html">Programme <span aria-hidden="true">→</span></a>
+      <a class="text-action text-action--light" href="about.html">Venue & documents <span aria-hidden="true">→</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="institution-strip" aria-label="Organising institutions">
+  <img src="logos/Logo-seio-header.png" alt="SEIO — Spanish Society of Statistics, Operations Research and Data Science">
+  <img src="logos/CUNEF%20Universidad_Fondo%20transparente.png" alt="CUNEF Universidad">
+</section>
+
+<section class="ruled-section conference-intro">
+  <p class="section-index">About the meeting</p>
+  <div class="editorial-grid">
+    <h2>Two days of Bayesian research and exchange.</h2>
+    <div class="prose-large">
+      <p>The II International Workshop on Bayesian Statistics was held on 4–5 June 2026 at CUNEF Universidad in Madrid, following the first edition in 2024.</p>
+      <p>The single-track meeting combined seven keynote talks with contributed sessions, including work by early-career researchers. Registration was free thanks to support from SEIO and CUNEF Universidad.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ruled-section speakers-section">
+  <p class="section-index">Keynote speakers</p>
+  <div class="speaker-list">
+    <article><h3>Peter Müller</h3><p>A semi-parametric Bayesian GLM and applications to outcome dependent sampling</p></article>
+    <article><h3>David Rossell</h3><p>High-dimensional model selection: transfer learning and projected computation</p></article>
+    <article><h3>Stefano Cabras</h3><p>Objective Bayesian Model Uncertainty Quantification under Missing Data</p></article>
+    <article><h3>Sylvia Frühwirth-Schnatter</h3><p>Sparse Bayesian Factor Analysis for Gaussian and non-Gaussian Data</p></article>
+    <article><h3>Lola Ugarte</h3><p>On smoothing risk patterns in areal data</p></article>
+    <article><h3>José Miguel Hernández-Lobato</h3><p>Advances in Scalable Gaussian Processes</p></article>
+    <article><h3>Daniel Hernández-Lobato</h3><p>Joint entropy search for multi-objective Bayesian optimization with constraints and multiple fidelities</p></article>
+  </div>
+</section>
+
+<section class="document-band">
+  <div>
+    <p class="section-index">Workshop record</p>
+    <h2>Programme and abstracts</h2>
+  </div>
+  <div class="document-links">
+    <a href="book_of_abstracts_bayes_cunef.pdf" download><span>Book of abstracts</span><small>PDF · download</small></a>
+    <a href="folleto-2pag.pdf" download><span>Workshop brochure</span><small>PDF · download</small></a>
+    <a href="program.html"><span>Detailed programme</span><small>View online</small></a>
+  </div>
+</section>
+```

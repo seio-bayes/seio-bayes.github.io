@@ -10,22 +10,36 @@ project:
     - logos/Workshop 4-5 junio.jpg
 
 website:
-  title: "II International Workshop on Bayesian Statistics"
+  title: "SEIO Bayes"
+  site-url: "https://seio-bayes.github.io"
+  description: "The Bayesian Working Group of the Spanish Society of Statistics, Operations Research and Data Science (SEIO)."
+  search: false
+  open-graph: true
   navbar:
+    pinned: true
     left:
       - href: index.qmd
-        text: Overview
-      - href: program.qmd
-        text: Program
-      - href: about.qmd
-        text: Venue & Downloads
+        text: About
+      - href: people.qmd
+        text: People
+      - href: activities.qmd
+        text: Activities
+      - href: resources.qmd
+        text: Resources
+      - text: 2026 Workshop
+        menu:
+          - href: conference.qmd
+            text: Overview
+          - href: program.qmd
+            text: Programme
+          - href: about.qmd
+            text: Venue & documents
     right:
-      - href: book_of_abstracts_bayes_cunef.pdf
-        text: Book of Abstracts
-      - href: folleto-2pag.pdf
-        text: Brochure
+      - href: https://www.seio.es/
+        text: SEIO ↗
   page-footer:
-    center: "Organised by the Bayesian Working Group of SEIO and CUNEF Universidad"
+    left: "Bayesian Working Group of SEIO"
+    right: "Statistics · Operations Research · Data Science"
 
 format:
   html:
@@ -33,5 +47,7 @@ format:
     css: styles.css
     toc: false
     smooth-scroll: true
+    lang: en
+    link-external-newwindow: true
 
 editor: visual

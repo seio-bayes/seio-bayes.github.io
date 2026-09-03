@@ -1,0 +1,134 @@
+---
+title: "People"
+description: "Coordinators, board and members of the Bayesian Working Group of SEIO."
+page-layout: full
+toc: false
+---
+
+```{=html}
+<header class="page-header">
+  <p class="overline">The community</p>
+  <h1>People</h1>
+  <p>Researchers and practitioners from across Spain and beyond, connected by a shared interest in Bayesian statistics.</p>
+</header>
+
+<section class="ruled-section leadership-section">
+  <p class="section-index">Coordination</p>
+  <div class="leadership-list">
+    <article class="leadership-person leadership-person--lead">
+      <div><span class="role">Coordinator</span><h2>Roi Naveiro Flores</h2></div>
+      <div><p>CUNEF Universidad</p><a href="mailto:roi.naveiro@cunef.edu">roi.naveiro@cunef.edu</a></div>
+    </article>
+    <article class="leadership-person leadership-person--lead">
+      <div><span class="role">Coordinator</span><h2>M. Remedios Sillero-Denamiel</h2></div>
+      <div><p>Universidad de Sevilla</p><a href="mailto:rsillero@us.es">rsillero@us.es</a></div>
+    </article>
+  </div>
+</section>
+
+<section class="ruled-section board-section">
+  <p class="section-index">Board</p>
+  <div class="board-list">
+    <article><h3>Concepción Ausín Olivera</h3><p>Universidad Carlos III de Madrid</p><a href="mailto:concepcion.ausin@uc3m.es">concepcion.ausin@uc3m.es</a></article>
+    <article><h3>Gonzalo García-Donato</h3><p>Universidad de Castilla-La Mancha</p><a href="mailto:gonzalo.garciadonato@uclm.es">gonzalo.garciadonato@uclm.es</a></article>
+    <article><h3>Pepa Ramírez-Cobo</h3><p>Universidad de Cádiz</p><a href="mailto:pepa.ramirez@uca.es">pepa.ramirez@uca.es</a></article>
+    <article><h3>Stefano Cabras</h3><p>Universidad Carlos III de Madrid</p><a href="mailto:stefano.cabras@uc3m.es">stefano.cabras@uc3m.es</a></article>
+  </div>
+</section>
+
+<section class="ruled-section directory-section">
+  <div class="directory-heading">
+    <div><p class="section-index">Member directory</p><h2>Working-group members</h2></div>
+    <label class="directory-search">Find a member<input id="member-search" type="search" placeholder="Name or email" autocomplete="off"></label>
+  </div>
+  <div class="member-table-wrap">
+    <table class="member-table" id="member-table">
+      <thead><tr><th scope="col">Name</th><th scope="col">Email</th></tr></thead>
+      <tbody>
+        <tr><td>José Domingo Bermúdez Edo</td><td><a href="mailto:bermudez@uv.es">bermudez@uv.es</a></td></tr>
+        <tr><td>David Ríos Insua</td><td><a href="mailto:david.rios.insua@gmail.com">david.rios.insua@gmail.com</a></td></tr>
+        <tr><td>Manuel Salvador Figueras</td><td><a href="mailto:salvador@unizar.es">salvador@unizar.es</a></td></tr>
+        <tr><td>Francisco José Vázquez Polo</td><td><a href="mailto:fjvpolo@dmc.ulpgc.es">fjvpolo@dmc.ulpgc.es</a></td></tr>
+        <tr><td>Carmen del Castillo Vázquez</td><td><a href="mailto:carmelina@uma.es">carmelina@uma.es</a></td></tr>
+        <tr><td>David Valentín Conesa Guillén</td><td><a href="mailto:david.v.conesa@uv.es">david.v.conesa@uv.es</a></td></tr>
+        <tr><td>María Dolores Ugarte Martínez</td><td><a href="mailto:lola@unavarra.es">lola@unavarra.es</a></td></tr>
+        <tr><td>Victoriano José García García</td><td><a href="mailto:victoriano.garcia@uca.es">victoriano.garcia@uca.es</a></td></tr>
+        <tr><td>María Blanca Palacios Navarro</td><td><a href="mailto:blanca.palacios@unavarra.es">blanca.palacios@unavarra.es</a></td></tr>
+        <tr><td>Antonio Salmerón Cerdán</td><td><a href="mailto:antonio.salmeron@ual.es">antonio.salmeron@ual.es</a></td></tr>
+        <tr><td>María Concepción Ausín Olivera</td><td><a href="mailto:concepcion.ausin@uc3m.es">concepcion.ausin@uc3m.es</a></td></tr>
+        <tr><td>Michael Peter Wiper</td><td><a href="mailto:michael.wiper@uc3m.es">michael.wiper@uc3m.es</a></td></tr>
+        <tr><td>Rosario Susi García</td><td><a href="mailto:rsusi@estad.ucm.es">rsusi@estad.ucm.es</a></td></tr>
+        <tr><td>Jacinto Ramón Martín Jiménez</td><td><a href="mailto:jrmartin@unex.es">jrmartin@unex.es</a></td></tr>
+        <tr><td>Carmen Armero i Cervera</td><td><a href="mailto:carmen.armero@uv.es">carmen.armero@uv.es</a></td></tr>
+        <tr><td>Josep Xavier Barber Vallés</td><td><a href="mailto:xbarber@umh.es">xbarber@umh.es</a></td></tr>
+        <tr><td>Roberto Morales Arsenal</td><td><a href="mailto:rmorales@cunef.edu">rmorales@cunef.edu</a></td></tr>
+        <tr><td>Stefano Cabras</td><td><a href="mailto:stefano.cabras@uc3m.es">stefano.cabras@uc3m.es</a></td></tr>
+        <tr><td>Gonzalo García-Donato Layrón</td><td><a href="mailto:gonzalo.garciadonato@uclm.es">gonzalo.garciadonato@uclm.es</a></td></tr>
+        <tr><td>Pepa Ramírez-Cobo</td><td><a href="mailto:pepa.ramirez@uca.es">pepa.ramirez@uca.es</a></td></tr>
+        <tr><td>María Eugenia Castellanos Nueda</td><td><a href="mailto:maria.castellanos@urjc.es">maria.castellanos@urjc.es</a></td></tr>
+        <tr><td>Jorge González Ortega</td><td><a href="mailto:jgortega@ucm.es">jgortega@ucm.es</a></td></tr>
+        <tr><td>Ángel Berihuete Macías</td><td><a href="mailto:angel.berihuete@uca.es">angel.berihuete@uca.es</a></td></tr>
+        <tr><td>María de los Remedios Sillero-Denamiel</td><td><a href="mailto:remesillero@gmail.com">remesillero@gmail.com</a></td></tr>
+        <tr><td>Anabel Forte Deltell</td><td><a href="mailto:anabel.forte@uv.es">anabel.forte@uv.es</a></td></tr>
+        <tr><td>Roi Naveiro Flores</td><td><a href="mailto:roi.naveiro@gmail.com">roi.naveiro@gmail.com</a></td></tr>
+        <tr><td>Virgilio Gómez Rubio</td><td><a href="mailto:virgilio.gomez@uclm.es">virgilio.gomez@uclm.es</a></td></tr>
+        <tr><td>Marta Sánchez Sánchez</td><td><a href="mailto:marta.sanchez@uca.es">marta.sanchez@uca.es</a></td></tr>
+        <tr><td>Jorge Castillo-Mateo</td><td><a href="mailto:jorgecm@unizar.es">jorgecm@unizar.es</a></td></tr>
+        <tr><td>Diego Salmerón Martínez</td><td><a href="mailto:dsm@um.es">dsm@um.es</a></td></tr>
+        <tr><td>Alicia Quirós Carretero</td><td><a href="mailto:alicia.quiros@unileon.es">alicia.quiros@unileon.es</a></td></tr>
+        <tr><td>Gabriel Calvo Bayarri</td><td><a href="mailto:g.calvobayarri@gmail.com">g.calvobayarri@gmail.com</a></td></tr>
+        <tr><td>Irene Extremera</td><td><a href="mailto:irenethinker17@gmail.com">irenethinker17@gmail.com</a></td></tr>
+        <tr><td>Amparo Alonso Betanzos</td><td><a href="mailto:amparo.alonso.betanzos@udc.es">amparo.alonso.betanzos@udc.es</a></td></tr>
+        <tr><td>Miquel Marín Colomé</td><td><a href="mailto:miquelmarin43@gmail.com">miquelmarin43@gmail.com</a></td></tr>
+        <tr><td>Marc Sáez Zafra</td><td><a href="mailto:marc.saez@udg.edu">marc.saez@udg.edu</a></td></tr>
+        <tr><td>Juan José García Milla</td><td><a href="mailto:juanjose.milla@gmail.com">juanjose.milla@gmail.com</a></td></tr>
+        <tr><td>Miguel Ángel Martínez Beneito</td><td><a href="mailto:miguel.a.martinez@uv.es">miguel.a.martinez@uv.es</a></td></tr>
+        <tr><td>José Manuel Camacho Rodríguez</td><td><a href="mailto:josemanuel.camacho@icmat.es">josemanuel.camacho@icmat.es</a></td></tr>
+        <tr><td>Antonio López Quílez</td><td><a href="mailto:antonio.lopez@uv.es">antonio.lopez@uv.es</a></td></tr>
+        <tr><td>Daniel García Rasines</td><td><a href="mailto:dgrasines@gmail.com">dgrasines@gmail.com</a></td></tr>
+        <tr><td>Simón Rodríguez Santana</td><td><a href="mailto:simon.rsantana@gmail.com">simon.rsantana@gmail.com</a></td></tr>
+        <tr><td>José Antonio Lozano</td><td><a href="mailto:jlozano@bcmath.com">jlozano@bcmath.com</a></td></tr>
+        <tr><td>Rafael Jiménez Llamas</td><td><a href="mailto:rjimenez1@us.es">rjimenez1@us.es</a></td></tr>
+        <tr><td>Pablo Rodríguez Colino</td><td><a href="mailto:prodrc07@gmail.com">prodrc07@gmail.com</a></td></tr>
+        <tr><td>Antonio Squicciarini</td><td><a href="mailto:a.squicciarini@alumnos.upm.es">a.squicciarini@alumnos.upm.es</a></td></tr>
+        <tr><td>Laura Aixalà Perelló</td><td><a href="mailto:laixalap@gmail.com">laixalap@gmail.com</a></td></tr>
+        <tr><td>Mario Martínez Pizarro</td><td><a href="mailto:mariomp@unex.es">mariomp@unex.es</a></td></tr>
+        <tr><td>Carlos García Meixide</td><td><a href="mailto:garciac@ethz.ch">garciac@ethz.ch</a></td></tr>
+        <tr><td>Jesús Gutiérrez Botella</td><td><a href="mailto:jesusgutierrezbotella@gmail.com">jesusgutierrezbotella@gmail.com</a></td></tr>
+        <tr><td>José Jaén Delgado</td><td><a href="mailto:josejaendelgado@gmail.com">josejaendelgado@gmail.com</a></td></tr>
+        <tr><td>Víctor Peña Pizarro</td><td><a href="mailto:victor.pena.pizarro@upc.edu">victor.pena.pizarro@upc.edu</a></td></tr>
+        <tr><td>Asghar Khan</td><td><a href="mailto:malakand35@gmail.com">malakand35@gmail.com</a></td></tr>
+        <tr><td>Elena Mellado Cabrerizo</td><td><a href="mailto:elenamellado1.b@gmail.com">elenamellado1.b@gmail.com</a></td></tr>
+        <tr><td>Leticia Hernando Rodríguez</td><td><a href="mailto:leticia.hernando@ehu.eus">leticia.hernando@ehu.eus</a></td></tr>
+        <tr><td>Arantxa Urdangarin Iztueta</td><td><a href="mailto:arantxa.urdangarin@unavarra.es">arantxa.urdangarin@unavarra.es</a></td></tr>
+        <tr><td>Germán Ernesto Silva Gómez</td><td><a href="mailto:germansilvagomez@gmail.com">germansilvagomez@gmail.com</a></td></tr>
+      </tbody>
+    </table>
+    <p class="no-results" id="no-results" hidden>No members match that search.</p>
+  </div>
+</section>
+
+<section class="directory-note">
+  <h2>Join or update the directory</h2>
+  <p>To join the group or correct a listing, email <a href="mailto:roi.naveiro@cunef.edu,rsillero@us.es">the coordinators</a>. To become a member of the Society itself, see <a href="https://www.seio.es/membership/individual-member/">SEIO membership</a>.</p>
+</section>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const input = document.querySelector("#member-search");
+  const rows = [...document.querySelectorAll("#member-table tbody tr")];
+  const empty = document.querySelector("#no-results");
+  if (!input || !rows.length) return;
+  input.addEventListener("input", () => {
+    const query = input.value.trim().toLocaleLowerCase();
+    let visible = 0;
+    rows.forEach((row) => {
+      const match = row.textContent.toLocaleLowerCase().includes(query);
+      row.hidden = !match;
+      if (match) visible += 1;
+    });
+    empty.hidden = visible !== 0;
+  });
+});
+</script>
+```
