@@ -1,79 +1,89 @@
 ---
 title: "Bayesian Working Group"
-description: "The Bayesian Working Group of the Spanish Society of Statistics, Operations Research and Data Science (SEIO)."
+description: "Bayesian Working Group of the Spanish Society of Statistics, Operations Research and Data Science (SEIO)."
 page-layout: full
 toc: false
 ---
 
 ```{=html}
-<section class="group-hero">
-  <div class="group-hero__copy">
-    <p class="overline">Bayesian Working Group · SEIO</p>
-    <h1>A meeting point for Bayesian statistics in Spain.</h1>
-    <p class="group-hero__lead">We bring together researchers and practitioners who develop, study and apply Bayesian methods across statistics, operations research and data science.</p>
-    <div class="action-row">
-      <a class="text-action" href="people.html">Meet the group <span aria-hidden="true">→</span></a>
-      <a class="text-action text-action--quiet" href="activities.html">Our activities <span aria-hidden="true">→</span></a>
-    </div>
-  </div>
-  <div class="group-hero__mark" aria-label="Bayes' theorem">
-    <span class="mark-label">From prior to posterior</span>
-    <span class="equation">p(θ | x) ∝ p(x | θ) p(θ)</span>
-    <div class="distribution distribution--prior"><span>prior</span></div>
-    <div class="distribution distribution--posterior"><span>posterior</span></div>
+<div class="wrap">
+
+<header class="masthead">
+  <p class="masthead__eq">p(<i>&theta;</i>&hairsp;|&hairsp;<i>x</i>) &prop; p(<i>x</i>&hairsp;|&hairsp;<i>&theta;</i>)&thinsp;p(<i>&theta;</i>)</p>
+  <h1>Bayesian Working Group</h1>
+  <p class="masthead__alt">Grupo de Trabajo en Inferencia Bayesiana</p>
+  <p class="lead">A working group of the Spanish Society of Statistics, Operations Research and Data Science (SEIO), constituted at the XXXVI SEIO Congress in Toledo in 2016.</p>
+</header>
+
+<section class="section">
+  <div class="layout">
+    <p class="label">In brief</p>
+    <dl class="facts">
+      <div><dt>Constituted</dt><dd>2016, at the XXXVI SEIO Congress (Toledo)</dd></div>
+      <div><dt>Parent society</dt><dd><a href="https://www.seio.es/">Sociedad de Estadística e Investigación Operativa</a></dd></div>
+      <div><dt>Coordination</dt><dd>Roi Naveiro (CUNEF Universidad) and M. Remedios Sillero-Denamiel (Universidad de Sevilla)</dd></div>
+      <div><dt>Board</dt><dd>Concepción Ausín, Stefano Cabras, Gonzalo García-Donato, Pepa Ramírez-Cobo</dd></div>
+      <div><dt>Contact</dt><dd><a href="mailto:roi.naveiro@cunef.edu">roi.naveiro@cunef.edu</a> · <a href="mailto:rsillero@us.es">rsillero@us.es</a></dd></div>
+    </dl>
   </div>
 </section>
 
-<section class="home-intro ruled-section">
-  <p class="section-index">01 / About the group</p>
-  <div class="editorial-grid">
-    <h2>Bayesian ideas, shared across a national community.</h2>
-    <div class="prose-large">
-      <p>The Bayesian Working Group is part of the <a href="https://www.seio.es/">Spanish Society of Statistics, Operations Research and Data Science (SEIO)</a>. It was founded at the 36th SEIO Congress in Toledo in 2016 as a point of reference for the Bayesian community in Spain.</p>
-      <p>Our role is practical: to make connections between researchers, create opportunities for scientific exchange, support early-career colleagues and give Bayesian work greater visibility.</p>
-    </div>
-  </div>
-</section>
-
-<section class="what-we-do ruled-section">
-  <p class="section-index">02 / What we do</p>
-  <div class="principles">
-    <article>
-      <span class="principle-number">A</span>
-      <h3>Convene</h3>
-      <p>We organise workshops and sessions where new Bayesian research can be presented and discussed.</p>
-    </article>
-    <article>
-      <span class="principle-number">B</span>
-      <h3>Connect</h3>
-      <p>We link Bayesian researchers across universities, research centres and fields of application.</p>
-    </article>
-    <article>
-      <span class="principle-number">C</span>
-      <h3>Support</h3>
-      <p>We create space for early-career researchers and help circulate relevant opportunities and resources.</p>
-    </article>
-  </div>
-</section>
-
-<section class="featured-event">
-  <div class="featured-event__image" role="img" aria-label="Artwork for the Second International Workshop on Bayesian Statistics"></div>
-  <div class="featured-event__copy">
-    <p class="section-index">Latest meeting · Madrid, 2026</p>
-    <h2>II International Workshop on Bayesian Statistics</h2>
-    <p>The group’s second international workshop brought the Bayesian community together at CUNEF Universidad. The complete event archive—including the programme, abstracts, practical information and committees—is available here.</p>
-    <a class="text-action text-action--light" href="conference.html">Visit the workshop archive <span aria-hidden="true">→</span></a>
-  </div>
-</section>
-
-<section class="join-band ruled-section">
-  <p class="section-index">03 / Take part</p>
-  <div class="editorial-grid">
-    <h2>Join the conversation.</h2>
-    <div class="prose-large">
-      <p>If you work with Bayesian methods and would like to join the group, propose an activity or update your directory entry, contact the coordinators.</p>
-      <p><a class="text-action" href="mailto:roi.naveiro@cunef.edu,rsillero@us.es">Write to the coordinators <span aria-hidden="true">→</span></a></p>
+<section class="section">
+  <div class="layout">
+    <p class="label">Purpose</p>
+    <div class="prose">
+      <p>The stated aim of the group is to promote research in Bayesian inference and to disseminate its results among SEIO members, in the scientific community and in society at large.</p>
+      <p>Its activity consists mainly of scientific sessions at the SEIO national congresses and of the International Workshop on Bayesian Statistics, held for the first time in 2024 and for the second in 2026. Sessions reserved for early-career researchers are a regular part of both.</p>
     </div>
   </div>
 </section>
+
+<section class="section">
+  <div class="layout">
+    <p class="label">Activity</p>
+    <div>
+      <div class="entries">
+        <article class="entry">
+          <p class="entry__when">Sept 2026</p>
+          <div>
+            <p class="now">Under way</p>
+            <h3>XLII SEIO Congress</h3>
+            <p class="entry__where">Universidade de Santiago de Compostela · 2–5 September 2026</p>
+            <p>The group organises four sessions at the 42nd National Congress on Statistics, Operations Research and Data Science.</p>
+          </div>
+        </article>
+        <article class="entry">
+          <p class="entry__when">June 2026</p>
+          <div>
+            <h3>II International Workshop on Bayesian Statistics</h3>
+            <p class="entry__where">CUNEF Universidad, Madrid · 4–5 June 2026</p>
+            <p>A single-track meeting of seven keynote lectures and five contributed sessions, organised with CUNEF Universidad.</p>
+            <p class="entry__links"><a href="conference.html">Workshop archive</a><a href="program.html">Programme</a><a href="book_of_abstracts_bayes_cunef.pdf">Book of abstracts</a></p>
+          </div>
+        </article>
+        <article class="entry">
+          <p class="entry__when">June 2024</p>
+          <div>
+            <h3>I International Workshop on Bayesian Statistics</h3>
+            <p class="entry__where">Universidad Carlos III de Madrid, Puerta de Toledo · 17–18 June 2024</p>
+            <p>Thirty-seven participants and seventeen talks, with keynote lectures by Alan Gelfand, Simon Wilson and Miguel Ángel Gómez Villegas.</p>
+          </div>
+        </article>
+      </div>
+      <a class="more" href="activities.html">All activities</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="layout">
+    <p class="label">Membership</p>
+    <div class="prose">
+      <p>Membership is open to SEIO members who work on or with Bayesian methods. To join the group, to correct an entry in the internal directory or to propose an activity, write to the coordinators at <a href="mailto:roi.naveiro@cunef.edu">roi.naveiro@cunef.edu</a> or <a href="mailto:rsillero@us.es">rsillero@us.es</a>.</p>
+      <p>Membership of the Society itself is handled by <a href="https://www.seio.es/membership/individual-member/">SEIO</a>.</p>
+    </div>
+  </div>
+</section>
+
+</div>
 ```

@@ -1,62 +1,89 @@
 ---
 title: "II International Workshop on Bayesian Statistics"
-description: "Archive of the II International Workshop on Bayesian Statistics, held at CUNEF Universidad in Madrid on 4–5 June 2026."
+description: "Archive of the II International Workshop on Bayesian Statistics, CUNEF Universidad, Madrid, 4–5 June 2026."
 page-layout: full
 toc: false
 ---
 
 ```{=html}
-<section class="workshop-hero">
-  <div class="workshop-hero__image"></div>
-  <div class="workshop-hero__copy">
-    <p class="overline">Event archive · 4–5 June 2026 · Madrid</p>
-    <h1>II International Workshop on Bayesian Statistics</h1>
-    <p>Organised by the Bayesian Working Group of SEIO and CUNEF Universidad.</p>
-    <div class="action-row">
-      <a class="text-action text-action--light" href="program.html">Programme <span aria-hidden="true">→</span></a>
-      <a class="text-action text-action--light" href="about.html">Venue & documents <span aria-hidden="true">→</span></a>
+<div class="wrap">
+
+<header class="pagehead">
+  <p class="crumb">2026 Workshop · Archive</p>
+  <h1>II International Workshop on Bayesian Statistics</h1>
+  <p class="lead">Madrid, 4–5 June 2026. Organised by the Bayesian Working Group of SEIO and CUNEF Universidad.</p>
+</header>
+
+<section class="section">
+  <div class="layout">
+    <p class="label">In brief</p>
+    <dl class="facts">
+      <div><dt>Dates</dt><dd>4–5 June 2026</dd></div>
+      <div><dt>Venue</dt><dd>Aula F1.2, LPC Campus, CUNEF Universidad, Madrid</dd></div>
+      <div><dt>Format</dt><dd>Single track: seven keynote lectures and five contributed sessions</dd></div>
+      <div><dt>Funding</dt><dd>SEIO and CUNEF Universidad; registration was free of charge</dd></div>
+      <div><dt>Preceded by</dt><dd>I International Workshop on Bayesian Statistics, Madrid, 2024</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section class="section">
+  <div class="layout">
+    <p class="label">Scope</p>
+    <div class="prose">
+      <p>The second edition of the workshop followed the first, held in 2024 at Universidad Carlos III de Madrid. The programme combined seven keynote lectures with contributed sessions on model selection, Bayesian computation, spatial and temporal modelling, financial econometrics, adversarial and robust machine learning, and applied Bayesian methods. Several sessions were reserved for early-career researchers.</p>
     </div>
   </div>
 </section>
 
-<section class="institution-strip" aria-label="Organising institutions">
-  <img src="logos/Logo-seio-header.png" alt="SEIO — Spanish Society of Statistics, Operations Research and Data Science">
-  <img src="logos/CUNEF%20Universidad_Fondo%20transparente.png" alt="CUNEF Universidad">
+<section class="section">
+  <div class="layout">
+    <p class="label">Keynote lectures</p>
+    <ul class="talklist">
+      <li><span><b>Peter Müller</b><span class="affil">The University of Texas at Austin</span></span><span class="what">A semi-parametric Bayesian GLM and applications to outcome dependent sampling</span></li>
+      <li><span><b>David Rossell</b><span class="affil">Universitat Pompeu Fabra</span></span><span class="what">High-dimensional model selection: transfer learning and projected computation</span></li>
+      <li><span><b>Stefano Cabras</b><span class="affil">Universidad Carlos III de Madrid</span></span><span class="what">Objective Bayesian Model Uncertainty Quantification under Missing Data</span></li>
+      <li><span><b>Sylvia Frühwirth-Schnatter</b><span class="affil">WU Wien</span></span><span class="what">Sparse Bayesian Factor Analysis for Gaussian and non-Gaussian Data</span></li>
+      <li><span><b>María Dolores Ugarte</b><span class="affil">Universidad Pública de Navarra</span></span><span class="what">On smoothing risk patterns in areal data</span></li>
+      <li><span><b>José Miguel Hernández-Lobato</b><span class="affil">University of Cambridge</span></span><span class="what">Advances in Scalable Gaussian Processes</span></li>
+      <li><span><b>Daniel Hernández-Lobato</b><span class="affil">Universidad Autónoma de Madrid</span></span><span class="what">Joint entropy search for multi-objective Bayesian optimization with constraints and multiple fidelities</span></li>
+    </ul>
+  </div>
 </section>
 
-<section class="ruled-section conference-intro">
-  <p class="section-index">About the meeting</p>
-  <div class="editorial-grid">
-    <h2>Two days of Bayesian research and exchange.</h2>
-    <div class="prose-large">
-      <p>The II International Workshop on Bayesian Statistics was held on 4–5 June 2026 at CUNEF Universidad in Madrid, following the first edition in 2024.</p>
-      <p>The single-track meeting combined seven keynote talks with contributed sessions, including work by early-career researchers. Registration was free thanks to support from SEIO and CUNEF Universidad.</p>
+<section class="section">
+  <div class="layout">
+    <p class="label">Documents</p>
+    <div>
+      <div class="filelist">
+        <a href="book_of_abstracts_bayes_cunef.pdf">Book of abstracts<span class="ext">PDF</span></a>
+        <a href="folleto-2pag.pdf">Workshop brochure<span class="ext">PDF</span></a>
+        <a href="program.html">Detailed programme<span class="ext">Web</span></a>
+        <a href="about.html">Venue, committees and directions<span class="ext">Web</span></a>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="ruled-section speakers-section">
-  <p class="section-index">Keynote speakers</p>
-  <div class="speaker-list">
-    <article><h3>Peter Müller</h3><p>A semi-parametric Bayesian GLM and applications to outcome dependent sampling</p></article>
-    <article><h3>David Rossell</h3><p>High-dimensional model selection: transfer learning and projected computation</p></article>
-    <article><h3>Stefano Cabras</h3><p>Objective Bayesian Model Uncertainty Quantification under Missing Data</p></article>
-    <article><h3>Sylvia Frühwirth-Schnatter</h3><p>Sparse Bayesian Factor Analysis for Gaussian and non-Gaussian Data</p></article>
-    <article><h3>Lola Ugarte</h3><p>On smoothing risk patterns in areal data</p></article>
-    <article><h3>José Miguel Hernández-Lobato</h3><p>Advances in Scalable Gaussian Processes</p></article>
-    <article><h3>Daniel Hernández-Lobato</h3><p>Joint entropy search for multi-objective Bayesian optimization with constraints and multiple fidelities</p></article>
+<section class="section">
+  <div class="layout">
+    <p class="label">Poster</p>
+    <figure class="figure figure--half">
+      <img src="logos/bayes2.png" alt="Workshop poster artwork: a portrait of Thomas Bayes set against Madrid landmarks" loading="lazy">
+      <figcaption>Poster artwork of the second edition.</figcaption>
+    </figure>
   </div>
 </section>
 
-<section class="document-band">
-  <div>
-    <p class="section-index">Workshop record</p>
-    <h2>Programme and abstracts</h2>
-  </div>
-  <div class="document-links">
-    <a href="book_of_abstracts_bayes_cunef.pdf" download><span>Book of abstracts</span><small>PDF · download</small></a>
-    <a href="folleto-2pag.pdf" download><span>Workshop brochure</span><small>PDF · download</small></a>
-    <a href="program.html"><span>Detailed programme</span><small>View online</small></a>
+<section class="section">
+  <div class="layout">
+    <p class="label">Organisers</p>
+    <div class="orgs">
+      <img class="orgs__seio" src="logos/Logo-seio-header.png" alt="Sociedad de Estadística e Investigación Operativa">
+      <img class="orgs__cunef" src="logos/CUNEF%20Universidad_Fondo%20transparente.png" alt="CUNEF Universidad">
+    </div>
   </div>
 </section>
+
+</div>
 ```

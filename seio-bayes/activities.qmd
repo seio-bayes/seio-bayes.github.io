@@ -1,63 +1,88 @@
 ---
 title: "Activities"
-description: "Meetings and scientific initiatives of the Bayesian Working Group of SEIO."
+description: "Meetings and scientific sessions organised by the Bayesian Working Group of SEIO, most recent first."
 page-layout: full
 toc: false
 ---
 
 ```{=html}
-<header class="page-header page-header--split">
-  <div><p class="overline">Scientific initiatives</p><h1>Activities</h1></div>
-  <p>Workshops, conference sessions and other opportunities for the Bayesian community to exchange ideas and start collaborations.</p>
+<div class="wrap">
+
+<header class="pagehead">
+  <h1>Activities</h1>
+  <p class="lead">Meetings and scientific sessions organised by the group, most recent first.</p>
 </header>
 
-<section class="current-activity">
-  <div class="current-activity__image" role="img" aria-label="Artwork for the Second International Workshop on Bayesian Statistics"></div>
-  <div class="current-activity__copy">
-    <p class="activity-status">Most recent meeting</p>
-    <p class="activity-date">4–5 June 2026 · CUNEF Universidad, Madrid</p>
-    <h2>II International Workshop on Bayesian Statistics</h2>
-    <p>Seven keynote speakers and five contributed sessions spanning model selection, computation, spatial and temporal modelling, financial econometrics, robust machine learning and applied Bayesian methods.</p>
-    <a class="text-action" href="conference.html">Complete event archive <span aria-hidden="true">→</span></a>
-  </div>
-</section>
+<section class="section">
+  <div class="entries">
 
-<section class="ruled-section history-section">
-  <p class="section-index">Selected history</p>
-  <div class="timeline">
-    <article>
-      <time datetime="2016">2016</time>
-      <div><h2>The working group is founded</h2><p>The group was constituted at the 36th SEIO Congress in Toledo, with the aim of providing a meeting point and shared reference for Bayesian statisticians in Spain.</p></div>
-    </article>
-    <article>
-      <time datetime="2023">2023</time>
-      <div><h2>Three sessions at the XL SEIO Congress</h2><p>At the SEIO Congress in Elche, the group organised sessions on variable selection, early-career research and work by national and international researchers, including an invited contribution by Maria Kalli.</p></div>
-    </article>
-    <article>
-      <time datetime="2024-06-17">2024</time>
+    <article class="entry">
+      <p class="entry__when">2–5 Sept<span>2026</span></p>
       <div>
-        <h2>I International Workshop on Bayesian Statistics</h2>
-        <p>The first workshop was held on 17–18 June at Universidad Carlos III de Madrid’s Puerta de Toledo campus. It brought together 37 participants for 17 talks.</p>
-        <details>
-          <summary>Speakers and scientific committee</summary>
-          <div class="archive-details">
-            <p><strong>Keynote speakers:</strong> Alan Gelfand (Duke University), Simon Wilson (Trinity College Dublin) and Miguel Ángel Gómez Villegas (Universidad Complutense de Madrid / Universidad CEU San Pablo).</p>
-            <p><strong>Invited speakers:</strong> María Eugenia Castellanos (Universidad Rey Juan Carlos), David Conesa (Universitat de València), Gonzalo García-Donato (Universidad de Castilla-La Mancha), Rosario Susi (Universidad Complutense de Madrid) and Pilar Gargallo (Universidad de Zaragoza).</p>
-            <p><strong>Scientific committee:</strong> Conchi Ausín, Stefano Cabras, Juanmi Díaz-Araque, Pepa Ramírez-Cobo and Mike Wiper.</p>
-          </div>
-        </details>
-        <a class="source-link" href="https://seio-bayes.webnode.es/first-international-workshop-on-bayesian-statistics/">Original 2024 event page ↗</a>
+        <p class="now">Under way</p>
+        <h3>Four sessions at the XLII SEIO Congress</h3>
+        <p class="entry__where">Universidade de Santiago de Compostela</p>
+        <p>The group organises four sessions at the 42nd National Congress on Statistics, Operations Research and Data Science.</p>
       </div>
     </article>
-    <article>
-      <time datetime="2026-06-04">2026</time>
-      <div><h2>II International Workshop on Bayesian Statistics</h2><p>The second edition was hosted by CUNEF Universidad in Madrid. Its full programme, book of abstracts, brochure, venue information and committees remain available in the <a href="conference.html">event archive</a>.</p></div>
+
+    <article class="entry">
+      <p class="entry__when">4–5 June<span>2026</span></p>
+      <div>
+        <h3>II International Workshop on Bayesian Statistics</h3>
+        <p class="entry__where">CUNEF Universidad, Madrid</p>
+        <p>A single-track meeting of seven keynote lectures and five contributed sessions, covering model selection, Bayesian computation, spatial and temporal modelling, financial econometrics, adversarial and robust machine learning, and applied Bayesian methods. Organised with CUNEF Universidad and funded by SEIO and CUNEF Universidad; registration was free of charge. The closing session announced the winner of the María Eugenia Castellanos Award.</p>
+        <p class="entry__links"><a href="conference.html">Workshop archive</a><a href="program.html">Programme</a><a href="book_of_abstracts_bayes_cunef.pdf">Book of abstracts</a><a href="about.html">Venue and committees</a></p>
+      </div>
     </article>
+
+    <article class="entry">
+      <p class="entry__when">17–18 June<span>2024</span></p>
+      <div>
+        <h3>I International Workshop on Bayesian Statistics</h3>
+        <p class="entry__where">Universidad Carlos III de Madrid, Puerta de Toledo campus</p>
+        <p>The first edition brought together 37 participants for 17 talks.</p>
+        <details>
+          <summary>Speakers and scientific committee</summary>
+          <div>
+            <p><strong>Keynote speakers.</strong> Alan Gelfand (Duke University), Simon Wilson (Trinity College Dublin) and Miguel Ángel Gómez Villegas (Universidad Complutense de Madrid / Universidad CEU San Pablo).</p>
+            <p><strong>Invited speakers.</strong> María Eugenia Castellanos (Universidad Rey Juan Carlos), David Conesa (Universitat de València), Gonzalo García-Donato (Universidad de Castilla-La Mancha), Rosario Susi (Universidad Complutense de Madrid) and Pilar Gargallo (Universidad de Zaragoza).</p>
+            <p><strong>Scientific committee.</strong> Conchi Ausín, Stefano Cabras, Juanmi Díaz-Araque, Pepa Ramírez-Cobo and Mike Wiper.</p>
+          </div>
+        </details>
+        <p class="entry__links"><a href="https://seio-bayes.webnode.es/first-international-workshop-on-bayesian-statistics/">Original event page</a></p>
+      </div>
+    </article>
+
+    <article class="entry">
+      <p class="entry__when">2023</p>
+      <div>
+        <h3>Three sessions at the XL SEIO Congress</h3>
+        <p class="entry__where">Elche</p>
+        <p>Sessions on variable selection, on early-career research and on work by national and international researchers, the last including an invited contribution by Maria Kalli.</p>
+      </div>
+    </article>
+
+    <article class="entry">
+      <p class="entry__when">2016</p>
+      <div>
+        <h3>Constitution of the working group</h3>
+        <p class="entry__where">XXXVI SEIO Congress, Toledo</p>
+        <p>The group was constituted as a point of reference within SEIO for researchers working on Bayesian inference.</p>
+      </div>
+    </article>
+
   </div>
 </section>
 
-<section class="proposal-band">
-  <div><p class="section-index">Propose something</p><h2>Have an idea for the group?</h2></div>
-  <div><p>Members are welcome to suggest scientific sessions, workshops and other activities that would benefit the Bayesian community.</p><a class="text-action text-action--light" href="mailto:roi.naveiro@cunef.edu,rsillero@us.es">Contact the coordinators <span aria-hidden="true">→</span></a></div>
+<section class="section">
+  <div class="layout">
+    <p class="label">Proposals</p>
+    <div class="prose">
+      <p>Members may propose sessions at the SEIO congresses, workshops and other scientific activities. Write to <a href="mailto:roi.naveiro@cunef.edu">roi.naveiro@cunef.edu</a> or <a href="mailto:rsillero@us.es">rsillero@us.es</a>.</p>
+    </div>
+  </div>
 </section>
+
+</div>
 ```

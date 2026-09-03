@@ -7,12 +7,12 @@ project:
     - logos/bayes2.png
     - logos/Logo-seio-header.png
     - logos/CUNEF Universidad_Fondo transparente.png
-    - logos/Workshop 4-5 junio.jpg
+    - people/*.jpg
 
 website:
-  title: "SEIO Bayes"
+  title: "Bayesian Working Group"
   site-url: "https://seio-bayes.github.io"
-  description: "The Bayesian Working Group of the Spanish Society of Statistics, Operations Research and Data Science (SEIO)."
+  description: "Bayesian Working Group of the Spanish Society of Statistics, Operations Research and Data Science (SEIO)."
   search: false
   open-graph: true
   navbar:
@@ -24,8 +24,6 @@ website:
         text: People
       - href: activities.qmd
         text: Activities
-      - href: resources.qmd
-        text: Resources
       - text: 2026 Workshop
         menu:
           - href: conference.qmd
@@ -36,10 +34,10 @@ website:
             text: Venue & documents
     right:
       - href: https://www.seio.es/
-        text: SEIO ↗
+        text: seio.es
   page-footer:
-    left: "Bayesian Working Group of SEIO"
-    right: "Statistics · Operations Research · Data Science"
+    left: "Bayesian Working Group · Sociedad de Estadística e Investigación Operativa"
+    right: "[seio.es](https://www.seio.es/)"
 
 format:
   html:
@@ -49,5 +47,10 @@ format:
     smooth-scroll: true
     lang: en
     link-external-newwindow: true
+    include-in-header:
+      - text: |
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
 
 editor: visual
